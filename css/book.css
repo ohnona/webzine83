@@ -1,0 +1,247 @@
+.whitebox100 {
+  background-color: transparent;
+  height: 100px;
+}
+
+.bookreview .container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.book_page {
+  font-size: 12px;
+}
+
+.line-v {
+  width: 70%;
+  height: 1px;
+  margin: 20px 60px;
+  background-color: #f3e7e7;
+  text-align: center;
+}
+
+.line-v-book {
+  width: 78%;
+  height: 1px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.script {
+  width: 100%;
+  font-size: 18px;
+  color: #6d6ea6;
+  padding: 60px 60px 25px 60px;
+  text-align: justify;
+  line-height: 170%;
+}
+
+.script_top {
+  width: 100%;
+  margin: 0 auto;
+  padding: 60px 45px 25px 45px;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: justify;
+  color: #2a7da6;
+}
+
+.page {
+  font-size: 12px;
+}
+
+.booktitle {
+  text-align: center;
+  color: #6d6ea6;
+  font-size: calc(1.2rem + 1.5vw);
+  margin-top: 15px;
+  letter-spacing: -2.5px;
+}
+
+.wrtiername {
+  text-align: center;
+  color: #575757;
+  font-size: calc(0.6rem + 1.5vw);
+  margin-bottom: 40px;
+}
+
+.bookimg {
+  max-width: 610px;
+  margin: 0 auto;
+}
+
+.bookimg > img {
+  width: 100%;
+  margin-bottom: 200px;
+}
+
+.booktext {
+  font-size: 17px;
+  color: #595959;
+  line-height: 180%;
+  text-align: justify;
+  padding: 60px 60px 25px 60px;
+}
+
+.booktext h3 {
+  font-size: calc(0.7rem + 1.5vw);
+  margin: 0;
+}
+
+/* reviewer */
+
+.book_reviewer {
+  padding-bottom: 50px;
+  margin: 0 27px;
+  text-align: justify;
+}
+.reviewer_name {
+  font-size: 16px;
+}
+.reviewer_title {
+  font-size: 12px;
+}
+.reviewer_body {
+  padding-top: 20px;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+@media (min-width: 576px) {
+  .line-v {
+    margin: 20px 80px;
+  }
+  .script {
+    padding: 50px 45px 25px 45px;
+  }
+
+  .script_top {
+    padding: 50px 30px 25px 30px;
+  }
+
+  .booktext {
+    line-height: 180%;
+    padding: 60px 47px 50px 47px;
+  }
+  .book_reviewer {
+    margin: 0 32px;
+  }
+  .line-v-book {
+    width: 83%;
+  }
+}
+
+@media (min-width: 768px) {
+  .line-v {
+    width: 60%;
+    margin: 20px 150px;
+  }
+  .script {
+    padding: 50px 67px 25px 67px;
+  }
+  .script_top {
+    padding: 50px 50px 25px 50px;
+  }
+  .wrtiername {
+    font-size: calc(0.5rem + 1.3vw);
+  }
+  .booktitle {
+    font-size: calc(1rem + 1.4vw);
+  }
+  .booktext {
+    padding: 60px 65px 50px 65px;
+  }
+  .bookimg {
+    text-align: center;
+  }
+
+  .book_reviewer {
+    margin: 0 54px;
+  }
+  .line-v-book {
+    width: 83%;
+  }
+}
+
+@media (min-width: 992px) {
+  .line-v {
+    width: 42%;
+    margin: 20px 290px;
+  }
+  .script {
+    padding: 100px 196px 25px 196px;
+  }
+  .script_top {
+    padding: 50px 182px 25px 182px;
+  }
+  .wrtiername {
+    font-size: calc(0.3rem + 1.3vw);
+  }
+  .booktitle {
+    font-size: calc(1rem + 1.2vw);
+  }
+
+  .booktext {
+    line-height: 180%;
+    padding: 60px 200px 25px 200px;
+  }
+  .book_reviewer {
+    margin: 0 190px 50px 190px;
+  }
+  .line-v-book {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .line-v {
+    width: 40%;
+    margin: 20px 290px;
+  }
+  .script {
+    padding: 100px 290px 25px 290px;
+  }
+  .script_top {
+    padding: 50px 270px 25px 270px;
+  }
+  .booktext {
+    padding: 60px 290px 25px 290px;
+  }
+  .book_reviewer {
+    margin: 0 280px 50px 280px;
+  }
+}
+
+@media (min-width: 1400px) {
+  /* .line-v {
+    width: 600px;
+    padding: 10px;
+    margin-left: 250px;
+  } */
+  .wrtiername {
+    padding-top: 10px;
+    font-size: 17px;
+  }
+  .script {
+    padding: 30px 346px 30px 346px;
+  }
+  .script_top {
+    padding: 50px 330px 25px 330px;
+  }
+  .booktitle {
+    font-size: calc(1rem + 1vw);
+    padding-top: 50px;
+  }
+
+  .booktext {
+    padding: 60px 350px 50px 350px;
+    line-height: 180%;
+  }
+  .book_reviewer {
+    margin: 0 350px 50px 350px;
+  }
+  .line-v-book {
+    width: 48%;
+  }
+}
