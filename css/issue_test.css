@@ -1,0 +1,188 @@
+.issue .issue-contents {
+  position: relative;
+  background-color: #fff;
+  margin-top: 120px;
+}
+
+.title-boxSolid {
+  background-color: #bcb2ab;
+  color: #fff;
+  position: absolute;
+  top: -57px;
+  left: 0;
+}
+
+.issue-top {
+  width: 100%;
+  padding: 70px 60px 20px 60px;
+  display: flex;
+}
+
+.issue-topText {
+  flex: 1;
+  /* width: 55%; */
+  padding-right: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.issue-topText h2 {
+  font-weight: 500;
+  height: 40px;
+  font-size: 30px;
+  letter-spacing: -1px;
+  color: #222;
+}
+.issue-topText h5 {
+  height: 40px;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: -0.9px;
+  color: #222;
+  border-bottom: 0.3px solid #bfbfbf;
+  margin-bottom: 15px;
+}
+.issue-topText p {
+  /* height: 130px; */
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 300;
+  letter-spacing: -0.7px;
+  text-align: justify;
+  color: #666;
+}
+.issue-topImage {
+  /* width: 45%; */
+  width: 400px;
+  height: auto;
+  background: url('/img/issue_body2.jpg') no-repeat top center / cover;
+  border-radius: 8px;
+}
+
+.issue-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 45px;
+  margin-bottom: 20px;
+}
+
+.issue-bottomWrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 0 60px 0 60px;
+}
+
+.issue-plus {
+  width: 60px;
+  font-weight: 600;
+  color: #8a6d6d;
+  font-size: 20px;
+  margin-top: 40px;
+}
+.issue-sub {
+  width: 438px;
+  height: 100%;
+  border: 4px solid #efe5e4;
+  border-radius: 20px;
+}
+
+.issue-sub .issue-subWrap {
+  padding: 35px;
+}
+
+.issue-sub h4 {
+  height: 40px;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -1px;
+  color: #8a6d6d;
+  border-bottom: 0.3px solid #bfbfbf;
+  margin-bottom: 15px;
+}
+
+.issue-sub p {
+  /* height: 130px; */
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 300;
+  letter-spacing: -0.7px;
+  text-align: justify;
+  color: #666;
+  margin: 0;
+}
+/* 모바일반응형 */
+/* @media (max-width: 767px) {
+    .issue .issue-contents {
+      flex-direction: column;
+      max-width: 600px;
+    }
+    .issue-top {
+      flex-direction: column;
+      padding: 50px 50px 0px 50px;
+    }
+    .issue-topText {
+      width: 100%;
+      padding: 0;
+    }
+    .issue-topImage {
+      width: 100%;
+      height: 200px;
+      background: url('/img/issue_body2.jpg') no-repeat top center / cover;
+      border-radius: 8px;
+    }
+    .issue-bottomWrap {
+      display: block;
+      padding: 0 50px;
+    }
+    .issue-plus,
+    .issue-sub {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .issue-plus {
+      width: 100%;
+      font-weight: 600;
+      color: #8a6d6d;
+      font-size: 20px;
+      margin-top: 0px;
+    }
+  } */
+/* 태블렛반응형 */
+
+
+
+
+
+
+/* html  */
+<div class="issue-top">
+<div class="issue-topText">
+  <h2>KBS 재방송료 미지급에 대하여</h2>
+  <h5>드라마 방영권 구매로 일부 드라마의 재방송료 지급 거부 통보</h5>
+  <p>아크미디어(ARC MEDIA)에서 제작한 <크레이지 러브>는 2022년 3월 7일부터 4월 26일까지 KBS2에서 16부작으로 방영된 월화드라마이다. 보통의 경우라면 이 시기에 방영된 지상파 프로그램의 정산은 이미 처리가 끝나, 지금 시점에서는 제작에 참여한 협회원들은 이미 사용료를 분배받았어야 한다. 하지만 안타깝게도... </p>
+</div>
+<div class="issue-topImage"></div>
+</div>
+<div class="issue-bottom">
+<div class="issue-bottomWrap">
+  <div class="issue-plus">이슈 +</div>
+  <div class="issue-sub">
+    <div class="issue-subWrap">
+      <h4>영상산업 참여자에 대한 공정한 분배</h4>
+      <p>보통의 경우라면 이 시기에 방영된 지상파 프로그램의 정산은 이미 처리가 끝나, 지금 시점에서는 제작에 참여한 협회원들은 이미 사용료를 분배받았어야 한다. </p>
+    </div>
+  </div>
+  <div class="issue-sub">
+    <div class="issue-subWrap">
+      <h4>영상산업 참여자에 대한 공정한 분배</h4>
+      <p>보통의 경우라면 이 시기에 방영된 지상파 프로그램의 정산은 이미 처리가 끝나, 지금 시점에서는 제작에 참여한 협회원들은 이미 사용료를 분배받았어야 한다. </p>
+    </div>
+  </div>
+
+</div>
+
+</div>
