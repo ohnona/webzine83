@@ -103,8 +103,8 @@
 .peoplein .intro {
   text-align: left;
   margin-bottom: 30px;
-  padding-left: 5px;
-  padding-right: 15px;
+  /* padding-left: 5px;
+  padding-right: 15px; */
 }
 
 @media (min-width: 1400px) {
@@ -294,7 +294,7 @@
 .peoplein .bodyphoto1-1 {
   width: 100%;
   height: 350px;
-  background: url(/img/peoplein_photo2-1.jpg) no-repeat top center/cover;
+  background: url(/img/peoplein2_photo1.jpg) no-repeat top center/cover;
   background-size: 600px;
   background-position: 78% 30%;
   margin: 0 auto;
@@ -443,7 +443,7 @@
   font-size: 20px;
   letter-spacing: -1px;
   color: #6d6ea6;
-  padding: 0 0 60px 0;
+  padding: 0 0 20px 0;
   line-height: 32px;
 }
 .peoplewith .writerwording1 {
@@ -467,8 +467,8 @@
 .peoplewith .intro {
   text-align: left;
   margin-bottom: 30px;
-  padding-left: 5px;
-  padding-right: 15px;
+  /* padding-left: 5px; */
+  /* padding-right: 15px; */
 }
 @media (min-width: 1400px) {
   .peoplewith h2 {
@@ -533,16 +533,16 @@
 }
 @media (min-width: 1400px) {
   .bodycopy {
-    font-size: calc(0.4rem +1vw);
+    font-size: calc(0.4rem + 1vw);
   }
 }
 
 .peoplewith .bodyphoto1 {
   width: 100%;
   height: 350px;
-  background: url(/img/peoplewith82-1.jpg) no-repeat top center/cover;
+  background: url(/img/peoplewith83-1.jpg) no-repeat top center/cover;
   background-size: 400px;
-  background-position: 70%40%;
+  background-position: 70% 40%;
   margin: 0 auto;
 }
 .bodyphoto2 {
@@ -704,7 +704,7 @@
 }
 
 .article_issue .intro h2 {
-  font-size: calc(0.9rem + 1vw);
+  font-size: calc(0.7rem + 1vw);
   line-height: calc(1.3rem + 1vw);
   color: rgba(52, 53, 55, 0.9);
   padding-bottom: 20px;
@@ -909,13 +909,13 @@ line-v3 {
 .issue_bodyphoto1 {
   width: 100%;
   height: 30vh;
-  background: url(/img/issuebg-1_81.jpg) no-repeat top center / cover;
+  background: url(/img/issuebg-1_83.jpg) no-repeat top center / cover;
   background-position: 70%;
   border-radius: 8px;
 }
 
 .issue_bodyphoto3 {
-  max-width: 650px;
+  max-width: 500px;
   margin: 0 auto;
 }
 
@@ -926,7 +926,7 @@ line-v3 {
 }
 
 .issue_bodyphoto2 {
-  max-width: 650px;
+  max-width: 300px;
   margin: 0 auto;
 }
 
@@ -965,58 +965,82 @@ line-v3 {
   }
 }
 
-/*issue special*/
+/* issue-sub1-img */
 
-.spi_sub {
-  font-size: calc(0.7rem + 0.8vw);
-  line-height: calc(1.2rem + 1.2vw);
-  color: rgba(99, 97, 106, 0.9);
-  padding-bottom: 5px;
-  letter-spacing: -1px;
-  text-indent: 3px;
-}
-
-.spi_head {
-  font-size: calc(1.3rem + 1.5vw);
-  line-height: calc(1.8rem + 1.5vw);
-  color: rgba(89, 63, 192, 0.9);
-  padding-bottom: 5px;
-  letter-spacing: -2px;
-}
-
-.issuesp_bodyphoto2 {
-  max-width: 750px;
-  margin: 0 auto;
-}
-
-.issuesp_bodyphoto2 > img {
+.issuesub1_bodyphoto1 {
   width: 100%;
-  display: block;
+  height: 30vh;
+  background: url(/img/issuesub1bg_83.jpg) no-repeat top center / cover;
+  background-position: 70%;
   border-radius: 8px;
 }
 
-.issuesp_que {
-  font-size: 17px;
-  line-height: 28px;
-  padding: 0 0 25px 0;
-  text-align: justify;
-  color: #6d6ea6;
+@media (min-width: 576px) {
+  .issuesub1_bodyphoto1 {
+    height: 400px;
+    border-radius: 8px;
+  }
 }
 
-.issuesp_name1 {
-  font-size: 17px;
-  line-height: 28px;
-  padding: 0 0 25px 0;
-  text-align: justify;
-  color: #6d6ea6;
+@media (min-width: 768px) {
+  .issuesub1_bodyphoto1 {
+    height: 450px;
+    background-position-y: 20%;
+  }
 }
 
-.issuesp_name2 {
-  font-size: 20px;
-  line-height: 28px;
-  padding: 0 0 25px 0;
-  text-align: justify;
-  color: #6d6ea6;
+@media (min-width: 992px) {
+  .issuesub1_bodyphoto1 {
+    height: 500px;
+    background-position-y: 40%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .issuesub1_bodyphoto1 {
+    width: 70%;
+    height: 500px;
+    margin: 0 auto;
+  }
+}
+
+/* issue-sub2-img */
+
+.issuesub2_bodyphoto1 {
+  width: 100%;
+  height: 30vh;
+  background: url(/img/issuesub2bg_83.jpg) no-repeat top center / cover;
+  background-position: 70%;
+  border-radius: 8px;
+}
+
+@media (min-width: 576px) {
+  .issuesub2_bodyphoto1 {
+    height: 400px;
+    border-radius: 8px;
+  }
+}
+
+@media (min-width: 768px) {
+  .issuesub2_bodyphoto1 {
+    height: 450px;
+    background-position-y: 20%;
+  }
+}
+
+@media (min-width: 992px) {
+  .issuesub2_bodyphoto1 {
+    height: 500px;
+    background-position-y: 40%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .issuesub2_bodyphoto1 {
+    width: 70%;
+    height: 500px;
+    margin: 0 auto;
+  }
 }
 
 /* writer credit */
@@ -1223,7 +1247,7 @@ line-v3 {
 .column_bodyphoto1 {
   width: 100%;
   height: 30vh;
-  background: url(/img/columnbg_82.jpg) no-repeat top center / cover;
+  background: url(/img/columnbg_83.jpg) no-repeat top center / cover;
   background-size: 550px;
   background-position: 70%;
   border-radius: 8px;
@@ -1252,7 +1276,7 @@ line-v3 {
 }
 
 .column_photo3 {
-  max-width: 400px;
+  max-width: 500px;
   margin: 0 auto;
 }
 
@@ -1297,7 +1321,7 @@ line-v3 {
   .column_bodyphoto1 {
     width: 70%;
     height: 400px;
-    background: url(/img/columnbg_82.jpg) no-repeat top center / cover;
+    background: url(/img/columnbg_83.jpg) no-repeat top center / cover;
     background-position: 70%;
     margin: 0 auto;
   }
@@ -1321,7 +1345,7 @@ line-v3 {
 .essay_title {
   font-size: 32px;
   line-height: 40px;
-  color: #d00072;
+  color: #46289f;
 }
 
 .article_essay h3 {
@@ -1507,6 +1531,10 @@ line-v3 {
     height: 100vh;
     background: url(/img/essaybg_1.jpg) no-repeat bottom / cover;
     background-attachment: fixed;
+  }
+  .article-essay.line-v {
+    width: 100%;
+    margin: 20px 0;
   }
 }
 @media (min-width: 1400px) {

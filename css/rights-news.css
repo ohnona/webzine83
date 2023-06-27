@@ -1,0 +1,183 @@
+@import url(/css/article.css);
+@import url(/css/common.css);
+* {
+  margin: 0;
+}
+
+.inner {
+  width: 1200px;
+}
+
+.top-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 20px;
+}
+.top-wrapper .lineBox {
+  width: 1px;
+  height: 45px;
+  background-color: #000;
+  margin-bottom: 10px;
+}
+.top-wrapper h5 {
+  font-family: "Noto Sans KR", sans-serif;
+  color: #c54f4f;
+  text-transform: uppercase;
+}
+
+.tit-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.tit-wrapper .tit-box-sub {
+  font-size: 24px;
+  letter-spacing: -0.7px;
+  line-height: 1.3;
+  color: #ae4d15;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 20px;
+}
+.tit-wrapper .sub-box {
+  font-family: "Noto Serif KR";
+  max-width: 800px;
+  font-size: 17px;
+  letter-spacing: -0.3px;
+  line-height: 1.9;
+  color: #000;
+  font-weight: 300px;
+  text-align: justify;
+  margin-top: 20px;
+}
+.tit-wrapper .subbox_photo {
+  max-width: 790px;
+  margin: 0 auto;
+}
+.tit-wrapper .subbox_photo img {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+}
+.tit-wrapper .subbox_photo2 {
+  max-width: 550px;
+  margin: 0 auto;
+}
+.tit-wrapper .subbox_photo2 img {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+}
+
+.main-visual {
+  background: url(/img/rights_mainVisual.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.main-visual .main-wrapper .txt-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.main-visual .main-wrapper .txt-wrapper h1 {
+  font-size: 28px;
+  color: #fff;
+  padding-bottom: 20px;
+}
+.main-visual .main-wrapper .txt-wrapper .main-sub {
+  font-size: 14px;
+  color: #fff;
+}
+
+.dep01 {
+  background-color: #f3f3f0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.dep02 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 60px;
+}
+.dep02 .inner .banner-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px 0 10px 0;
+}
+
+.dep03 {
+  background-color: #f3f3f0;
+  padding-bottom: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}/*# sourceMappingURL=rights-news.css.map */
