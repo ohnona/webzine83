@@ -13,6 +13,10 @@ ul {
   padding: 0px;
 }
 
+body {
+  font-family: Noto Sans KR;
+}
+
 /* HEADER NAVBAR */
 
 @media only screen and (min-width: 1200px) {

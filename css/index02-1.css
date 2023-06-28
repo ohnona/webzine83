@@ -349,16 +349,22 @@ section .main {
 
 .mydebut .txt-wrap h3 {
   font-size: 30px;
-  color: #9b928c;
+  color: #5b5450;
   margin-bottom: 30px;
 }
 
 .mydebut .txt-wrap p {
   font-size: 15px;
   font-weight: 400;
-  color: #9b928c;
+  color: #5b5450;
   letter-spacing: -0.5px;
   text-align: justify;
+}
+
+.mydebut .txt-wrap p:hover {
+  color: #9b928c;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .peoplewith {
@@ -368,8 +374,8 @@ section .main {
   position: relative;
   background-image: url(/img/peoplewith_index.jpg);
   background-repeat: no-repeat;
-  background-size: 600px;
-  background-position: 26% 0;
+  background-size: 650px;
+  background-position: 16% 0;
 }
 
 .con-interview .tit-box-wht {
@@ -390,10 +396,14 @@ section .main {
   color: #fff;
 }
 .peoplewith h3 {
-  font-size: 30px;
-  color: #9b928c;
+  font-size: 24px;
+  color: #eae7e6;
   margin-bottom: 30px;
   padding: 130px 0px 90px 50px;
+}
+
+.peoplewith h3:hover {
+  color: #83c9b9;
 }
 
 /* con-interview media query  */
@@ -470,7 +480,8 @@ section .main {
 }
 
 .column-box .img-wrap {
-  background-image: url(/img/essaybg_1.jpg);
+  background-image: url(/img/columnbg_83.jpg);
+  background-size: cover;
 }
 .essay-box .img-wrap {
   background-image: url(/img/essaybg_1.jpg);
@@ -478,27 +489,33 @@ section .main {
 
 .con-article .article-box h4 {
   font-size: 1.6rem;
-  font-weight: 600;
-  letter-spacing: -0.5px;
+  font-weight: 500;
+  color: #666;
+  letter-spacing: -1px;
   padding-bottom: 15px;
   margin-bottom: 15px;
-  border-bottom: 0.5px solid #888;
+  border-bottom: 0.5px solid #444;
 }
 
 .con-article .article-box .txt-wrap p {
   font-size: 15px;
-  font-weight: 200;
-  color: #999;
+  font-weight: 400;
+  color: #666;
   letter-spacing: -0.5px;
   line-height: 1.6;
   text-align: justify;
+}
+
+.con-article .article-box .txt-wrap p:hover {
+  color: #c9906a;
+  cursor: pointer;
 }
 
 .article-box .tit-box-wrap {
   position: absolute;
   width: 100%;
   height: 50px;
-  border-bottom: 2px solid #716a64;
+  border-bottom: 2px solid #c9906a;
 }
 
 .column-box .tit-box-wrap {
@@ -514,7 +531,7 @@ section .main {
 .column-box .tit-box-color {
   width: 160px;
   height: 50px;
-  background-color: #ac6e6a;
+  background-color: #c9906a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -629,15 +646,44 @@ section .main {
 .rights-box .rights-wrap {
   width: calc(100% - 50px);
   height: 172px;
-  background-color: #fff;
+  background-color: #679da9;
   display: flex;
-  gap: 20px;
+  justify-content: space-between;
+  gap: 10px;
 }
 
 .rights-wrap .rights-con-box {
-  width: 40%;
+  width: 340px;
   height: 172px;
   background-color: #36ded0;
+}
+
+.rights-wrap .rights-con-box.bgimg01 {
+  background-image: url('/img/bgimg01.jpg');
+  background-size: cover;
+}
+.rights-wrap .rights-con-box.bgimg01:hover {
+  background-image: url('/img/bgimg01-1.jpg');
+  background-size: cover;
+  cursor: pointer;
+}
+.rights-wrap .rights-con-box.bgimg02 {
+  background-image: url('/img/bgimg02.jpg');
+  background-size: cover;
+}
+.rights-wrap .rights-con-box.bgimg02:hover {
+  background-image: url('/img/bgimg02-1.jpg');
+  background-size: cover;
+  cursor: pointer;
+}
+.rights-wrap .rights-con-box.bgimg03 {
+  background-image: url('/img/bgimg03.jpg');
+  background-size: cover;
+}
+.rights-wrap .rights-con-box.bgimg03:hover {
+  background-image: url('/img/bgimg03-1.jpg');
+  background-size: cover;
+  cursor: pointer;
 }
 
 /* con-article media query  */
@@ -691,12 +737,12 @@ section .main {
   justify-content: center;
   align-items: center;
   border: 4px solid #cacaca;
-
   border-radius: 10px;
 }
 
 .photo-box {
   margin-right: 30px;
+  /* background-color: #376e7a; */
   background-image: url(/img/photoessay_4.jpg);
   background-repeat: no-repeat;
   background-size: 1000px;
@@ -704,6 +750,7 @@ section .main {
 }
 
 .book-box {
+  /* background-color: #376e7a; */
   background-image: url(/img/books.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -755,6 +802,24 @@ section .main {
   padding: 80px 30px 0 0px;
   background-color: #679da9;
   position: relative;
+}
+
+.con-news-box .tit-box-color {
+  position: absolute;
+  top: 0;
+  left: 50px;
+  width: 160px;
+  height: 50px;
+  background-color: #376e7a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.con-news-box .tit-box-txt {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
 }
 
 .news-wrap {
