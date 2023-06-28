@@ -109,7 +109,7 @@ section .main {
 /* content > con-issue  */
 
 .con-issue {
-  background-color: #635347;
+  background-color: #937b63;
   display: flex;
   justify-content: center;
 }
@@ -143,6 +143,7 @@ section .main {
   font-family: 'Noto Sans KR, san-serif';
   display: flex;
   flex-direction: column;
+  color: #444;
 }
 
 .issue-box-top {
@@ -184,6 +185,13 @@ section .main {
   color: #666;
 }
 
+.issue-box-top p.body-txt:hover {
+  font-weight: 500;
+  color: #c1534d;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .issue-box .txt-wrap {
   width: 50%;
 }
@@ -205,7 +213,7 @@ section .main {
   width: 180px;
   margin-right: 20px;
   margin-top: 25px;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 600;
   color: #ac6e6a;
 }
@@ -223,6 +231,13 @@ section .main {
   text-align: justify;
   margin: 0;
   color: #666;
+}
+
+.issue-box-bottom p.body-txt:hover {
+  font-weight: 500;
+  color: #c1534d;
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 /* con-issue media query  */
@@ -499,7 +514,7 @@ section .main {
 .column-box .tit-box-color {
   width: 160px;
   height: 50px;
-  background-color: #c9906a;
+  background-color: #ac6e6a;
   display: flex;
   justify-content: center;
   align-items: center;
