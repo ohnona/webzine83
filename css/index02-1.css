@@ -59,7 +59,7 @@ section .main {
 
 @media screen and (max-width: 1199px) {
   section .main {
-    background-position: 30% 40%;
+    background-position: 30%;
   }
   .main .txt-wrap {
     position: absolute;
@@ -90,7 +90,7 @@ section .main {
 
   .main .txt-wrap .tit-main {
     font-size: 2.8rem;
-    line-height: 1.1;
+    line-height: 1.3;
     padding: 10px 0;
   }
   .main .txt-wrap .main-txt {
@@ -100,19 +100,20 @@ section .main {
 
 @media screen and (max-width: 575px) {
   section .main {
-    background-position: 18%;
+    background-position: 14% 20%;
     height: 95vh;
   }
   .main .txt-wrap {
     position: absolute;
-    top: 52%;
-    left: 48%;
+    top: 60%;
+    left: 7%;
     color: #fff;
   }
   .main .txt-wrap .tit-main {
     font-size: 2.2rem;
-    line-height: 1.1;
+    line-height: 1.2;
     padding: 10px 0;
+    letter-spacing: -3.5px;
   }
   .main .txt-wrap .main-txt {
     display: none;
