@@ -154,7 +154,7 @@ section .main {
 }
 
 .issue-box {
-  padding: 50px;
+  padding: 50px 24px 10px 24px;
   font-family: 'Noto Sans KR, san-serif';
   display: flex;
   flex-direction: column;
@@ -312,6 +312,19 @@ section .main {
   }
 }
 
+@media (max-width: 575px) {
+  .issue-box-bottom .issue-subbox {
+    padding: 27px;
+  }
+  .issue-box {
+    padding: 50px 20px 24px 20px;
+    font-family: 'Noto Sans KR, san-serif';
+    display: flex;
+    flex-direction: column;
+    color: #444;
+  }
+}
+
 /*////////////////////////////*/
 /* content > con-interview  */
 
@@ -376,9 +389,9 @@ section .main {
   position: absolute;
   top: 385px;
   left: 71px;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
-  color: #5b5450;
+  color: #d28b65;
   letter-spacing: -0.5px;
   text-align: justify;
 }
@@ -390,6 +403,7 @@ section .main {
 }
 
 .peoplewith {
+  position: relative;
   width: 30%;
   height: 500px;
   background-color: #000;
@@ -476,9 +490,9 @@ section .main {
   .mydebut .txt-wrap h3 {
     top: 186px;
   }
-  .mydebut .txt-wrap p {
+  /* .mydebut .txt-wrap p {
     display: none;
-  }
+  } */
   .con-interview .tit-box-wht {
     top: 138px;
   }
@@ -492,7 +506,50 @@ section .main {
   .mydebut,
   .peoplewith {
     width: 100vw;
-    height: 300px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 575px) {
+  .mydebut {
+    width: 100vw;
+    height: 600px;
+    background-position: 94% 20%;
+  }
+  .mydebut .txt-wrap h3 {
+    top: 480px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #e1e4e4;
+  }
+
+  .mydebut .txt-wrap p {
+    text-align: center;
+    top: 437px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .peoplewith {
+    width: 100vw;
+    height: 500px;
+    background-size: 650px;
+    background-position: 0% -170px;
+  }
+
+  .peoplewith h3 {
+    top: 430px;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: #e1e4e4;
+  }
+  .peoplewith p {
+    text-align: center;
+    position: absolute;
+    top: 377px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #36ded0;
   }
 }
 
