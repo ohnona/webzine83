@@ -680,6 +680,7 @@ section .main {
 .con-article .article-box .txt-wrap p:hover {
   color: #c9906a;
   cursor: pointer;
+  text-decoration: underline;
 }
 
 .article-box .tit-box-wrap {
@@ -1019,6 +1020,10 @@ section .main {
   line-height: 2.8;
 }
 
+.news-wrap .txt-box li a:hover {
+  font-weight: 600;
+}
+
 .news-wrap .btn-box-wrap {
   display: flex;
   flex-direction: column;
@@ -1038,6 +1043,10 @@ section .main {
   color: #fff;
   font-size: 16px;
   font-weight: 500;
+}
+
+.news-wrap .btn-box-wrap .btn-box span:hover {
+  font-weight: 700;
 }
 
 @media (max-width: 1000px) {

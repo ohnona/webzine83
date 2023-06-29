@@ -301,4 +301,22 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.right_webtoon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.right_webtoon img {
+  width: 70vw;
+}
+
+@media (max-width: 800px) {
+  .right_webtoon img {
+    width: 85vw;
+  }
 }/*# sourceMappingURL=rights.css.map */
