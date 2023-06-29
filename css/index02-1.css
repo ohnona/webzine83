@@ -415,6 +415,32 @@ section .main {
   background-position: 16% -175px;
 }
 
+.peoplewith h3 {
+  position: absolute;
+  top: 380px;
+  left: 53px;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: -1.5px;
+  color: #f5be9e;
+  margin-bottom: 30px;
+  font-family: Noto Serif KR, Serif;
+}
+.peoplewith h3:hover {
+  color: #83c9b9;
+}
+.peoplewith p {
+  position: absolute;
+  top: 337px;
+  left: 52px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #efe8e4;
+  letter-spacing: -1.5px;
+  text-align: justify;
+  font-family: Noto Serif KR, Serif;
+}
+
 .con-interview .tit-box-wht {
   position: absolute;
   top: 280px;
@@ -431,19 +457,6 @@ section .main {
   font-size: 15px;
   font-weight: 500;
   color: #fff;
-}
-.peoplewith h3 {
-  font-size: 24px;
-  color: #eae7e6;
-  /* margin-bottom: 30px;
-  padding: 130px 0px 90px 50px; */
-  position: absolute;
-  top: 395px;
-  left: 30px;
-}
-
-.peoplewith h3:hover {
-  color: #83c9b9;
 }
 
 .con-interview .peoplewith .tit-box-wht {
