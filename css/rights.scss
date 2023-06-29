@@ -63,7 +63,7 @@ $color-tit-sub: #ae4d15;
   @media (max-width: 500px) {
     .tit-box-sub {
       font-size: 20px;
-      max-width: 400px;
+      max-width: 350px;
     }
   }
   .sub-box {
@@ -78,7 +78,7 @@ $color-tit-sub: #ae4d15;
   }
   @media (max-width: 500px) {
     .sub-box {
-      max-width: 400px;
+      max-width: 350px;
     }
   }
 }
@@ -158,16 +158,12 @@ $color-tit-sub: #ae4d15;
       }
       @media (max-width: 500px) {
         .con-box {
-          flex-direction: column;
-          align-items: center;
           .con-tit {
             @include flex-center();
-            width: 400px;
-            margin-right: 0;
-            margin-bottom: 10px;
+            width: 300px;
           }
           .con-body {
-            text-align: center;
+            width: 300px;
           }
         }
       }
