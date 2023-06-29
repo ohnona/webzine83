@@ -431,6 +431,7 @@
 .peoplewith h3 {
   font-size: 1rem;
   padding: 0 0 20px 3px;
+  letter-spacing: -0.7px;
 }
 .peoplewith h2 {
   font-size: 44px;
@@ -659,8 +660,8 @@
 /*text decoration*/
 
 .bottom_line_yellow {
-  border-bottom: 1px solid #beeef5;
-  box-shadow: inset 0 -2px 0 0 #beeef5;
+  border-bottom: 1px solid #ecd2f6;
+  box-shadow: inset 0 -2px 0 0 #ecd2f6;
 }
 
 /* issue content */
@@ -692,7 +693,7 @@
 .article_issue .intro {
   text-align: left;
   margin-bottom: 30px;
-  padding-right: 15px;
+  /* padding-right: 15px; */
 }
 
 .article_head {
@@ -840,6 +841,13 @@ line-v3 {
   line-height: 28px;
   color: rgba(0, 0, 0, 0.9);
   text-align: justify;
+}
+
+.article_com {
+  font-size: 13px;
+  color: #9e9e9e;
+  font-family: Noto Serif KR, Serif;
+  line-height: 21px;
 }
 
 .textdeco_Nsans {
