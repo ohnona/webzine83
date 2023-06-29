@@ -892,11 +892,11 @@ section .main {
 }
 
 .rights-wrap .rights-con-box.bgimg01 {
-  background-image: url('/img/bgimg01.jpg');
+  background-image: url('/img/bgimg01-1.jpg');
   background-size: cover;
 }
 .rights-wrap .rights-con-box.bgimg01:hover {
-  background-image: url('/img/bgimg01-1.jpg');
+  background-image: url('/img/bgimg01.jpg');
   background-size: cover;
   cursor: pointer;
 }
