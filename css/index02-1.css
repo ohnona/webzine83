@@ -323,6 +323,11 @@ section .main {
     flex-direction: column;
     color: #444;
   }
+  .issue-box h3 {
+    font-size: 1.7rem;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+  }
 }
 
 /*////////////////////////////*/
@@ -586,7 +591,7 @@ section .main {
     font-size: 17px;
     text-align: center;
     top: 437px;
-    left: 50%;
+    left: 48%;
     transform: translate(-50%, -50%);
   }
   .peoplewith {

@@ -60,6 +60,12 @@ $color-tit-sub: #ae4d15;
     text-align: center;
     margin-top: 20px;
   }
+  @media (max-width: 500px) {
+    .tit-box-sub {
+      font-size: 20px;
+      max-width: 400px;
+    }
+  }
   .sub-box {
     max-width: 800px;
     font-size: 16px;
@@ -69,6 +75,11 @@ $color-tit-sub: #ae4d15;
     font-weight: 300px;
     text-align: center;
     margin-top: 20px;
+  }
+  @media (max-width: 500px) {
+    .sub-box {
+      max-width: 400px;
+    }
   }
 }
 
@@ -109,6 +120,7 @@ $color-tit-sub: #ae4d15;
         justify-content: left;
         align-items: stretch;
         letter-spacing: -0.5px;
+
         .con-tit {
           @include flex-center();
           font-size: 18px;
@@ -117,6 +129,8 @@ $color-tit-sub: #ae4d15;
           border-radius: 16px;
           margin-right: 30px;
           background-color: #fff;
+          padding-top: 10px;
+          padding-bottom: 10px;
         }
         .con-body {
           font-size: 15px;
@@ -127,9 +141,40 @@ $color-tit-sub: #ae4d15;
           margin-bottom: 20px;
         }
       }
+      @media (max-width: 700px) {
+        .con-box {
+          flex-direction: column;
+          align-items: center;
+          .con-tit {
+            @include flex-center();
+            width: 400px;
+            margin-right: 0;
+            margin-bottom: 10px;
+          }
+          .con-body {
+            text-align: center;
+          }
+        }
+      }
+      @media (max-width: 500px) {
+        .con-box {
+          flex-direction: column;
+          align-items: center;
+          .con-tit {
+            @include flex-center();
+            width: 400px;
+            margin-right: 0;
+            margin-bottom: 10px;
+          }
+          .con-body {
+            text-align: center;
+          }
+        }
+      }
     }
   }
 }
+
 .dep02 {
   @include flex-center;
   padding-bottom: 60px;
@@ -149,7 +194,7 @@ $color-tit-sub: #ae4d15;
             border: 1px solid $color-tit;
             border-radius: 16px;
             margin-right: 30px;
-            background-color: #fff;
+            background-color: #ffffff;
             .con-tit {
               font-size: 18px;
             }
@@ -172,6 +217,23 @@ $color-tit-sub: #ae4d15;
               }
               &:nth-child(2) {
                 margin-bottom: 10px;
+              }
+            }
+          }
+        }
+        @media (max-width: 700px) {
+          .con-box {
+            flex-direction: column;
+            align-items: center;
+            .con-left {
+              width: 60%;
+              border-radius: 8px;
+              margin-bottom: 10px;
+              margin-right: 0;
+              .con-tit {
+                color: $color-tit;
+                font-weight: 600;
+                padding: 5px 0;
               }
             }
           }
