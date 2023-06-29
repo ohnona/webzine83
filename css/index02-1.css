@@ -154,7 +154,7 @@ section .main {
 }
 
 .issue-box {
-  padding: 50px 24px 10px 24px;
+  padding: 73px 50px 64px 50px;
   font-family: 'Noto Sans KR, san-serif';
   display: flex;
   flex-direction: column;
@@ -364,36 +364,37 @@ section .main {
   gap: 30px;
 }
 .mydebut {
-  width: 70%;
+  width: 60%;
   height: 500px;
   background-color: #000;
   background-image: url(/img/peoplein2_index.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 770px;
+  background-position: 90% 32%;
 }
-
-/* .mydebut .txt-wrap {
-  padding: 130px 0px 90px 70px;
-} */
 
 .mydebut .txt-wrap h3 {
   position: absolute;
-  top: 335px;
-  left: 70px;
-  font-size: 30px;
+  top: 240px;
+  left: 60px;
+  font-size: 34px;
+  font-weight: 400;
+  letter-spacing: -1.5px;
   color: #5b5450;
   margin-bottom: 30px;
+  font-family: Noto Serif KR, Serif;
 }
 
 .mydebut .txt-wrap p {
   position: absolute;
-  top: 385px;
-  left: 71px;
-  font-size: 16px;
+  top: 200px;
+  left: 61px;
+  font-size: 20px;
   font-weight: 400;
   color: #d28b65;
-  letter-spacing: -0.5px;
+  letter-spacing: -1.5px;
   text-align: justify;
+  font-family: Noto Serif KR, Serif;
 }
 
 .mydebut .txt-wrap p:hover {
@@ -404,7 +405,7 @@ section .main {
 
 .peoplewith {
   position: relative;
-  width: 30%;
+  width: 40%;
   height: 500px;
   background-color: #000;
   position: relative;
@@ -459,24 +460,20 @@ section .main {
 
 /* con-interview media query  */
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .mydebut {
-    width: 60%;
-    height: 500px;
-    background-color: #000;
-    background-image: url(/img/peoplein2_index.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 65% 20%;
+    background-position: 84% 20%;
   }
   .peoplewith {
     width: 40%;
   }
   .mydebut .txt-wrap h3 {
-    left: 49px;
+    top: 335px;
+    left: 45px;
   }
   .mydebut .txt-wrap p {
-    left: 52px;
+    top: 300px;
+    left: 44px;
   }
   .con-interview .tit-box-wht {
     width: 211px;
@@ -488,11 +485,13 @@ section .main {
     background-position: 75% 20%;
   }
   .mydebut .txt-wrap h3 {
-    top: 186px;
+    top: 365px;
+    left: 45px;
   }
-  /* .mydebut .txt-wrap p {
-    display: none;
-  } */
+  .mydebut .txt-wrap p {
+    top: 330px;
+    left: 44px;
+  }
   .con-interview .tit-box-wht {
     top: 138px;
   }
@@ -508,13 +507,25 @@ section .main {
     width: 100vw;
     height: 400px;
   }
+
+  .mydebut .txt-wrap h3 {
+    top: 240px;
+    left: 60px;
+  }
+
+  .mydebut .txt-wrap p {
+    top: 200px;
+    left: 61px;
+  }
 }
 
 @media (max-width: 575px) {
   .mydebut {
     width: 100vw;
     height: 600px;
-    background-position: 94% 20%;
+    background-image: url(/img/peoplein2_index_mo.jpg);
+    background-size: cover;
+    /* background-position: 99% 20%; */
   }
   .mydebut .txt-wrap h3 {
     top: 480px;
@@ -524,6 +535,7 @@ section .main {
   }
 
   .mydebut .txt-wrap p {
+    font-size: 19px;
     text-align: center;
     top: 437px;
     left: 50%;
