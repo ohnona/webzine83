@@ -60,6 +60,12 @@
   text-align: center;
   margin-top: 20px;
 }
+@media (max-width: 900px) {
+  .tit-wrapper .tit-box-sub {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
 .tit-wrapper .sub-box {
   font-family: "Noto Serif KR";
   max-width: 800px;
@@ -71,6 +77,12 @@
   text-align: justify;
   margin-top: 20px;
 }
+@media (max-width: 900px) {
+  .tit-wrapper .sub-box {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
 .tit-wrapper .subbox_photo {
   max-width: 790px;
   margin: 0 auto;
@@ -79,6 +91,12 @@
   width: 100%;
   display: block;
   border-radius: 8px;
+}
+@media (max-width: 900px) {
+  .tit-wrapper .subbox_photo {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
 }
 .tit-wrapper .subbox_photo2 {
   max-width: 550px;
@@ -129,6 +147,7 @@
 .main-visual .main-wrapper .txt-wrapper .main-sub {
   font-size: 14px;
   color: #fff;
+  text-align: center;
 }
 
 .dep01 {
@@ -143,6 +162,7 @@
       -ms-flex-align: center;
           align-items: center;
 }
+
 .dep02 {
   display: -webkit-box;
   display: -ms-flexbox;
