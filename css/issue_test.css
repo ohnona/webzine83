@@ -54,7 +54,7 @@
   /* width: 45%; */
   width: 400px;
   height: auto;
-  background: url('/img/issue_body2.jpg') no-repeat top center / cover;
+  background: url('/83/img/issue_body2.jpg') no-repeat top center / cover;
   border-radius: 8px;
 }
 
@@ -114,75 +114,3 @@
   color: #666;
   margin: 0;
 }
-/* 모바일반응형 */
-/* @media (max-width: 767px) {
-    .issue .issue-contents {
-      flex-direction: column;
-      max-width: 600px;
-    }
-    .issue-top {
-      flex-direction: column;
-      padding: 50px 50px 0px 50px;
-    }
-    .issue-topText {
-      width: 100%;
-      padding: 0;
-    }
-    .issue-topImage {
-      width: 100%;
-      height: 200px;
-      background: url('/img/issue_body2.jpg') no-repeat top center / cover;
-      border-radius: 8px;
-    }
-    .issue-bottomWrap {
-      display: block;
-      padding: 0 50px;
-    }
-    .issue-plus,
-    .issue-sub {
-      width: 100%;
-      margin-bottom: 20px;
-    }
-    .issue-plus {
-      width: 100%;
-      font-weight: 600;
-      color: #8a6d6d;
-      font-size: 20px;
-      margin-top: 0px;
-    }
-  } */
-/* 태블렛반응형 */
-
-
-
-
-
-
-/* html  */
-<div class="issue-top">
-<div class="issue-topText">
-  <h2>KBS 재방송료 미지급에 대하여</h2>
-  <h5>드라마 방영권 구매로 일부 드라마의 재방송료 지급 거부 통보</h5>
-  <p>아크미디어(ARC MEDIA)에서 제작한 <크레이지 러브>는 2022년 3월 7일부터 4월 26일까지 KBS2에서 16부작으로 방영된 월화드라마이다. 보통의 경우라면 이 시기에 방영된 지상파 프로그램의 정산은 이미 처리가 끝나, 지금 시점에서는 제작에 참여한 협회원들은 이미 사용료를 분배받았어야 한다. 하지만 안타깝게도... </p>
-</div>
-<div class="issue-topImage"></div>
-</div>
-<div class="issue-bottom">
-<div class="issue-bottomWrap">
-  <div class="issue-plus">이슈 +</div>
-  <div class="issue-sub">
-    <div class="issue-subWrap">
-      <h4>영상산업 참여자에 대한 공정한 분배</h4>
-      <p>보통의 경우라면 이 시기에 방영된 지상파 프로그램의 정산은 이미 처리가 끝나, 지금 시점에서는 제작에 참여한 협회원들은 이미 사용료를 분배받았어야 한다. </p>
-    </div>
-  </div>
-  <div class="issue-sub">
-    <div class="issue-subWrap">
-      <h4>영상산업 참여자에 대한 공정한 분배</h4>
-      <p>보통의 경우라면 이 시기에 방영된 지상파 프로그램의 정산은 이미 처리가 끝나, 지금 시점에서는 제작에 참여한 협회원들은 이미 사용료를 분배받았어야 한다. </p>
-    </div>
-  </div>
-
-</div>
-
-</div>

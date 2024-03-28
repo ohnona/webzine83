@@ -1,5 +1,5 @@
-@import url(/css/article.css);
-@import url(/css/common.css);
+@import url(/83/css/article.css);
+@import url(/83/css/common.css);
 * {
   margin: 0;
 }
@@ -109,7 +109,7 @@
 }
 
 .main-visual {
-  background: url(/img/rights_mainVisual.png);
+  background: url(/83/img/rights_mainVisual.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

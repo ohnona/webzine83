@@ -1,5 +1,5 @@
-@import url(/css/article.css);
-@import url(/css/common.css);
+@import url(/83/css/article.css);
+@import url(/83/css/common.css);
 $color-tit: #c54f4f;
 $color-tit-sub: #ae4d15;
 
@@ -40,7 +40,7 @@ $color-tit-sub: #ae4d15;
   .tit-box {
     width: 240px;
     height: 80px;
-    background: url(/img/rights_gradBox.png);
+    background: url(/83/img/rights_gradBox.png);
     border-radius: 8px;
     @include bacImg;
     @include flex-center;
@@ -84,7 +84,7 @@ $color-tit-sub: #ae4d15;
 }
 
 .main-visual {
-  background: url(/img/rights_mainVisual.png);
+  background: url(/83/img/rights_mainVisual.png);
   @include bacImg;
   height: 300px;
   @include flex-center;

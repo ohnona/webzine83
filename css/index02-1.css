@@ -2,7 +2,7 @@
 section .main {
   height: 90vh;
   position: relative;
-  background-image: url(/img/web_main4.jpg);
+  background-image: url(/83/img/web_main4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   /* background-position: 90% 50%; */
@@ -214,7 +214,7 @@ section .main {
   flex: 1;
   height: 200px;
   margin-left: 30px;
-  background-image: url(/img/issue_index1.jpg);
+  background-image: url(/83/img/issue_index1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
@@ -301,7 +301,7 @@ section .main {
   .issue-box .img-wrap {
     width: 100%;
     height: 100%;
-    background-image: url(/img/issue_index1.jpg);
+    background-image: url(/83/img/issue_index1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
@@ -372,7 +372,7 @@ section .main {
   width: 60%;
   height: 500px;
   background-color: #000;
-  background-image: url(/img/peoplein2_index.jpg);
+  background-image: url(/83/img/peoplein2_index.jpg);
   background-repeat: no-repeat;
   background-size: 770px;
   background-position: 90% 32%;
@@ -414,7 +414,7 @@ section .main {
   height: 500px;
   background-color: #000;
   position: relative;
-  background-image: url(/img/peoplewith_index.jpg);
+  background-image: url(/83/img/peoplewith_index.jpg);
   background-repeat: no-repeat;
   background-size: 650px;
   background-position: 16% -175px;
@@ -555,7 +555,7 @@ section .main {
     height: 400px;
     background-color: #000;
     position: relative;
-    background-image: url(/img/peoplewith_index.jpg);
+    background-image: url(/83/img/peoplewith_index.jpg);
     background-repeat: no-repeat;
     background-size: 690px;
     background-position: 71% -214px;
@@ -576,7 +576,7 @@ section .main {
   .mydebut {
     width: 100vw;
     height: 600px;
-    background-image: url(/img/peoplein2_index_mo.jpg);
+    background-image: url(/83/img/peoplein2_index_mo.jpg);
     background-size: cover;
     /* background-position: 99% 20%; */
   }
@@ -619,70 +619,6 @@ section .main {
   }
 }
 
-/* @media (max-width: 1023px) {
-  .interview-wrap {
-    gap: 20px;
-  }
-  .mydebut .txt-wrap {
-    padding: 130px 380px 60px 70px;
-  }
-}
-@media (max-width: 900px) {
-  .interview-wrap {
-    flex-direction: column;
-  }
-  .mydebut {
-    width: 100%;
-    height: 300px;
-    background-color: #000;
-    background-image: url(/img/peoplein2_index.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .mydebut .txt-wrap {
-    padding: 80px 450px 90px 70px;
-  }
-
-  .mydebut .txt-wrap p {
-    display: none;
-  }
-  .peoplewith {
-    width: 100%;
-    height: auto;
-    background-image: url(/img/peoplewith83-1.jpg);
-    background-repeat: no-repeat;
-    background-size: 1400px;
-    background-position: 0% 25%;
-  }
-
-  .con-interview .tit-box-wht {
-    position: absolute;
-    top: 30px;
-    left: 30px;
-    width: 200px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid #9b928c;
-  }
-}
-
-@media (max-width: 630px) {
-  .mydebut .txt-wrap {
-    padding: 130px 320px 60px 70px;
-  }
-  .mydebut .txt-wrap p {
-    max-height: 250px;
-  }
-  .mydebut {
-    background-image: url(/img/peoplein2_index.jpg);
-    background-repeat: no-repeat;
-    background-size: 600px;
-    background-position: 88% 10%;
-  }
-} */
-
 /*////////////////////////////*/
 /* content > con-article  */
 .con-article {
@@ -717,11 +653,11 @@ section .main {
 }
 
 .column-box .img-wrap {
-  background-image: url(/img/columnbg_83.jpg);
+  background-image: url(/83/img/columnbg_83.jpg);
   background-size: cover;
 }
 .essay-box .img-wrap {
-  background-image: url(/img/essaybg_1.jpg);
+  background-image: url(/83/img/essaybg_1.jpg);
 }
 
 .con-article .article-box h4 {
@@ -897,29 +833,29 @@ section .main {
 }
 
 .rights-wrap .rights-con-box.bgimg01 {
-  background-image: url('/img/bgimg01-1.jpg');
+  background-image: url('/83/img/bgimg01-1.jpg');
   background-size: cover;
 }
 .rights-wrap .rights-con-box.bgimg01:hover {
-  background-image: url('/img/bgimg01.jpg');
+  background-image: url('/83/img/bgimg01.jpg');
   background-size: cover;
   cursor: pointer;
 }
 .rights-wrap .rights-con-box.bgimg02 {
-  background-image: url('/img/bgimg02.jpg');
+  background-image: url('/83/img/bgimg02.jpg');
   background-size: cover;
 }
 .rights-wrap .rights-con-box.bgimg02:hover {
-  background-image: url('/img/bgimg02-1.jpg');
+  background-image: url('/83/img/bgimg02-1.jpg');
   background-size: cover;
   cursor: pointer;
 }
 .rights-wrap .rights-con-box.bgimg03 {
-  background-image: url('/img/bgimg03.jpg');
+  background-image: url('/83/img/bgimg03.jpg');
   background-size: cover;
 }
 .rights-wrap .rights-con-box.bgimg03:hover {
-  background-image: url('/img/bgimg03-1.jpg');
+  background-image: url('/83/img/bgimg03-1.jpg');
   background-size: cover;
   cursor: pointer;
 }
@@ -981,7 +917,7 @@ section .main {
 .photo-box {
   margin-right: 30px;
   /* background-color: #376e7a; */
-  background-image: url(/img/photoessay_4.jpg);
+  background-image: url(/83/img/photoessay_4.jpg);
   background-repeat: no-repeat;
   background-size: 1000px;
   background-position: 1% 34%;
@@ -989,7 +925,7 @@ section .main {
 
 .book-box {
   /* background-color: #376e7a; */
-  background-image: url(/img/books.jpg);
+  background-image: url(/83/img/books.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 37% 73%;
@@ -1068,7 +1004,7 @@ section .main {
 .con-news-box .logo-box {
   width: 180px;
   height: 250px;
-  background-image: url(/img/Kobpra_CI_web_symbol_white.png);
+  background-image: url(/83/img/Kobpra_CI_web_symbol_white.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 10% -5%;

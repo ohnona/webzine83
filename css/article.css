@@ -177,7 +177,7 @@
 .peoplein .bodyphoto1 {
   width: 100%;
   height: 350px;
-  background: url(/img/peoplein_photo2.jpg) no-repeat top center/cover;
+  background: url(/83/img/peoplein_photo2.jpg) no-repeat top center/cover;
   background-size: 520px;
   background-position: 62% 0%;
   margin: 0 auto;
@@ -294,7 +294,7 @@
 .peoplein .bodyphoto1-1 {
   width: 100%;
   height: 350px;
-  background: url(/img/peoplein2_photo1.jpg) no-repeat top center/cover;
+  background: url(/83/img/peoplein2_photo1.jpg) no-repeat top center/cover;
   background-size: 600px;
   background-position: 78% 30%;
   margin: 0 auto;
@@ -541,7 +541,7 @@
 .peoplewith .bodyphoto1 {
   width: 100%;
   height: 350px;
-  background: url(/img/peoplewith83-1.jpg) no-repeat top center/cover;
+  background: url(/83/img/peoplewith83-1.jpg) no-repeat top center/cover;
   background-size: 400px;
   background-position: 70% 40%;
   margin: 0 auto;
@@ -917,7 +917,7 @@ line-v3 {
 .issue_bodyphoto1 {
   width: 100%;
   height: 30vh;
-  background: url(/img/issuebg-1_83.jpg) no-repeat top center / cover;
+  background: url(/83/img/issuebg-1_83.jpg) no-repeat top center / cover;
   background-position: 70%;
   border-radius: 8px;
 }
@@ -978,7 +978,7 @@ line-v3 {
 .issuesub1_bodyphoto1 {
   width: 100%;
   height: 30vh;
-  background: url(/img/issuesub1bg_83.jpg) no-repeat top center / cover;
+  background: url(/83/img/issuesub1bg_83.jpg) no-repeat top center / cover;
   background-position: 70%;
   border-radius: 8px;
 }
@@ -1017,7 +1017,7 @@ line-v3 {
 .issuesub2_bodyphoto1 {
   width: 100%;
   height: 30vh;
-  background: url(/img/issuesub2bg_83.jpg) no-repeat top center / cover;
+  background: url(/83/img/issuesub2bg_83.jpg) no-repeat top center / cover;
   background-position: 70%;
   border-radius: 8px;
 }
@@ -1070,7 +1070,7 @@ line-v3 {
 .issue_writer_photo {
   width: 150px;
   height: 190px;
-  background: url(/img/issue_writer.jpg) no-repeat top center / cover;
+  background: url(/83/img/issue_writer.jpg) no-repeat top center / cover;
   margin: 0 auto;
   border-radius: 8px;
 }
@@ -1255,7 +1255,7 @@ line-v3 {
 .column_bodyphoto1 {
   width: 100%;
   height: 30vh;
-  background: url(/img/columnbg_83.jpg) no-repeat top center / cover;
+  background: url(/83/img/columnbg_83.jpg) no-repeat top center / cover;
   background-size: 550px;
   background-position: 70%;
   border-radius: 8px;
@@ -1329,7 +1329,7 @@ line-v3 {
   .column_bodyphoto1 {
     width: 70%;
     height: 400px;
-    background: url(/img/columnbg_83.jpg) no-repeat top center / cover;
+    background: url(/83/img/columnbg_83.jpg) no-repeat top center / cover;
     background-position: 70%;
     margin: 0 auto;
   }
@@ -1403,7 +1403,7 @@ line-v3 {
 
 .essay_bodyphoto1 {
   height: 400px;
-  background: url(/img/essaybg_1.jpg) no-repeat top center / cover;
+  background: url(/83/img/essaybg_1.jpg) no-repeat top center / cover;
   background-size: 600px;
 }
 
@@ -1454,14 +1454,14 @@ line-v3 {
 
 .essay_bodyphoto6 {
   height: 100vh;
-  background: url(/img/essaybg_6.jpg) no-repeat top center / cover;
+  background: url(/83/img/essaybg_6.jpg) no-repeat top center / cover;
 }
 
 @media (min-width: 576px) {
   .essay_bodyphoto1 {
     width: 100%;
     height: 550px;
-    background: url(/img/essaybg_1.jpg) no-repeat top center / cover;
+    background: url(/83/img/essaybg_1.jpg) no-repeat top center / cover;
     background-size: 800px;
   }
 }
@@ -1481,7 +1481,7 @@ line-v3 {
   .essay_bodyphoto1 {
     width: 100%;
     height: 650px;
-    background: url(/img/essaybg_1.jpg) no-repeat top center / cover;
+    background: url(/83/img/essaybg_1.jpg) no-repeat top center / cover;
     background-size: 1000px;
   }
   .essay_subtit {
@@ -1504,7 +1504,7 @@ line-v3 {
   .essay_bodyphoto1 {
     width: 100%;
     height: 100vh;
-    background: url(/img/essaybg_1.jpg) no-repeat bottom / cover;
+    background: url(/83/img/essaybg_1.jpg) no-repeat bottom / cover;
     background-attachment: fixed;
   }
   .essay_title {
@@ -1528,7 +1528,7 @@ line-v3 {
   }
   .essay_bodyphoto6 {
     height: 100vh;
-    background: url(/img/essaybg_6.jpg) no-repeat bottom center / cover;
+    background: url(/83/img/essaybg_6.jpg) no-repeat bottom center / cover;
     background-attachment: fixed;
   }
 }
@@ -1537,7 +1537,7 @@ line-v3 {
   .essay_bodyphoto1 {
     width: 100%;
     height: 100vh;
-    background: url(/img/essaybg_1.jpg) no-repeat bottom / cover;
+    background: url(/83/img/essaybg_1.jpg) no-repeat bottom / cover;
     background-attachment: fixed;
   }
   .article-essay.line-v {
@@ -1549,7 +1549,7 @@ line-v3 {
   .essay_bodyphoto1 {
     width: 100%;
     height: 120vh;
-    background: url(/img/essaybg_1.jpg) no-repeat bottom / cover;
+    background: url(/83/img/essaybg_1.jpg) no-repeat bottom / cover;
     background-position: 100%;
     background-attachment: fixed;
   }
