@@ -1,309 +1,576 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head>
-    <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="keywords" content="한국방송실연자권리협회, 방실협, 방송실연자, 코프라, Kobpra, Kbpa, 저작권, 저작인접권, Rights">
-      <meta name="description" content="한국방송실연자권리협회 웹진 83호입니다.">
-  
-      <meta property="og:type" content="website"> 
-      <meta property="og:url" content="https://webzine.kobpra.or.kr">    
-      <meta property="og:title" content="한국방송실연자권리협회 웹진 Vol.83"> 
-      <meta property="og:image" content="/83/img/og83.png"> 
-      <meta property="og:description" content="한국방송실연자권리협회 웹진 83호입니다."> 
-      <meta property="og:site_name" content="WRITE.S"> 
-      <meta property="og:locale" content="en_ko"> 
-  
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="한국방송실연자권리협회, 방실협, 방송실연자, 코프라, Kobpra, Kbpa, 저작권, 저작인접권, Rights" />
+    <meta name="description" content="한국방송실연자권리협회 웹진 83호입니다." />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://webzine.kobpra.or.kr" />
+    <meta property="og:title" content="한국방송실연자권리협회 웹진 Vol.83" />
+    <meta property="og:image" content="/83/img/og83.png" />
+    <meta property="og:description" content="한국방송실연자권리협회 웹진 83호입니다." />
+    <meta property="og:site_name" content="WRITE.S" />
+    <meta property="og:locale" content="en_ko" />
+
     <title>Kobpra Webzine Vol.83</title>
-    <link rel="shortcut icon" href="/favicon.ico">    
-      <!--googlefonts-->
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Serif+KR:wght@200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap" rel="stylesheet">
-      <!--fontawesome-->
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" 
-      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-      <!--bootstrap-->
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-      <!--css-->
-      <link rel="stylesheet" href="/83/css/article.css">
-      <link rel="stylesheet" href="/83/css/common.css">
-      <link rel="stylesheet" href="/83/css/navbar.css">
-      <link rel="stylesheet" href="/83/css/footer.css">
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <!--googlefonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Serif+KR:wght@200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap"
+      rel="stylesheet" />
+    <!--fontawesome-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous" />
+    <!--bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous" />
+    <!--css-->
+    <link rel="stylesheet" href="/83/css/article.css" />
+    <link rel="stylesheet" href="/83/css/common.css" />
+    <link rel="stylesheet" href="/83/css/navbar.css" />
+    <link rel="stylesheet" href="/83/css/footer.css" />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F7TZW7YEEJ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-F7TZW7YEEJ');
+    </script>
   </head>
-<body>
+  <body>
+    <!-- header navbar-->
+    <header class="header">
+      <div class="header-inner">
+        <div class="container-fluid px-lg-5">
+          <nav class="navbar navbar-expand-lg my-navbar">
+            <a class="navbar-brand logop" href="/83/index.html"></a>
+            <a class="navbar-brand logom" href="/83/index.html"></a>
+            <!--toggle btn-->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon">
+                <i class="fas fa-bars" style="margin: 5px 0px 0px 0px"></i>
+              </span>
+            </button>
 
-<!-- header navbar-->
-<header class="header">
-  <div class="header-inner">
-    <div class="container-fluid px-lg-5">
-      <nav class="navbar navbar-expand-lg my-navbar">
-        <a class="navbar-brand logop" href="/83/index.html"></a>
-        <a class="navbar-brand logom" href="/83/index.html"></a>
-        <!--toggle btn-->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon">
-        <i class="fas fa-bars" style="margin:5px 0px 0px 0px;"></i></span>
-        </button>
-
-        <!--collapse menu-->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav m-auto">
-            <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">피플</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="/83/peoplein83.html">피플 인_ 김영진 회원</a>
-            <a class="dropdown-item" href="/83/peoplein83-1.html">드라마 데뷔기_ 배유람 회원</a>
-            <a class="dropdown-item" href="/83/peoplewith83.html">피플 위드_ 장원진 메이킹 필름 제작자</a></div></li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">이슈</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="/83/issue83.html">OTT 오리지널의 의미와 중요성</a>
-              <a class="dropdown-item" href="/83/issue83-1.html">지구 반대편의 투쟁,
-              OTT 시대 변화의 흐름</a>
-              <a class="dropdown-item" href="/83/issue83-2.html">유사 누누티비의 등장과 저작권 보호</a></div></li>
-            <li class="nav-item"><a class="nav-link" href="/83/column83.html">칼럼</a></li>
-            <li class="nav-item"><a class="nav-link" href="/83/essay83.html">에세이</a></li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">저작권</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="/83/rights_webtoon.html">저작권 웹툰</a>
-              <a class="dropdown-item" href="/83/rights.html">저작권 용어</a>
-              <a class="dropdown-item" href="/83/rights_news.html">저작권 소식</a></div></li>
-            <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">백스테이지</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="/83/photoscript83.html">사진 스크립트</a>
-            <a class="dropdown-item" href="/83/book83.html">방송인의 서재</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="/83/news83.html">협회소식</a></li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">다른호 보기</a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="/">WRITE.S Vol.88</a>
-                  <a class="dropdown-item" href="/87/index.html">WRITE.S Vol.87</a>
-                  <a class="dropdown-item" href="/86/index.html">WRITE.S Vol.86</a>
-                <a class="dropdown-item" href="/85/index.html">WRITE.S Vol.85</a>
-                <a class="dropdown-item" href="/84/index.html">WRITE.S Vol.84</a>
-                <a class="dropdown-item" href="/83/index.html">WRITE.S Vol.83</a>
-                <a class="dropdown-item" href="/82/index.html">WRITE.S Vol.82</a>
-                <a class="dropdown-item" href="/81/index.html">WRITE.S Vol.81</a>
-                <a class="dropdown-item" href="/80/index.html">WRITE.S Vol.80</a>
-                <a class="dropdown-item" href="/79/index.html">WRITE.S Vol.79</a>
-                <a class="dropdown-item" href="/78/index.html">WRITE.S Vol.78</a>
-              </div>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="http://www.kobpra.or.kr">협회홈페이지</a></li>
-      </ul>
-        </div> <!--collapse menu end-->
-      </nav>
-    </div> 
-  </div>
-</header>
-
-<!--peoplein content-->
-<section class="peoplein">
-  <div class="whitebox80">&nbsp;<br>&nbsp;<br></div>
-  <div class="bodyphoto1"></div>
-
-<div class="container">
-    <div class="peoplein_top">
-    <h3 class="FF_Nsans_500">피플 인 코브프라</h3>
-    <h2 class="FF_Nseri_100">16대 노조위원장<br>김영진</h2>
-    <div class="peoplein_linever"></div>
-    <p class="writerwording1 FF_Nseri_500">
-    <br>
-    사람이 발을 딛는 곳에는 길이 있다.<br>
-    누군가 시간과 비용을 들여 반듯하게 잘 닦아놓은 길도 있고<br>
-    많은 이들의 발자취를 따라 자연스레 생긴 길도 있다.<br> 
-    한국방송연기자노동조합(이하 한연노)은 길을 만드는 단체다.<br> 
-    탤런트, 성우, 코미디언, 연극인, 무술연기자 등 대한민국에서 연기자로 살아가는<br> 
-    노동자들을 위해 길을 만드는 단체다.<br> 
-    반듯하고 넓은 도로에서 막힘없이 질주하는 이도 있고<br>
-    사람이 적은 오솔길에서 고적하게 걷는 이도 있으며<br>
-    가파른 비탈에서 숨 가쁘게 생존을 위해 악전고투하는 이도 있다.<br> 
-    더러는 길이 아닌 곳에서 웅크린 이도 있다. <br>
-    한연노는<br>
-    누구도 길이 아닌 곳에서 소외받지 않도록,<br>
-    누구도 비탈에서 추락하지 않도록<br>
-    뚜벅뚜벅 길을 만들고 이정표를 세운다.<br> 
-    그 길을 만드는 16대 위원장, 김영진 성우를 만났다.<br>
-    </p> 
-    <div class="intro">
-    <div class="line-v"></div>
-    <!-- <p><span class="by FF_Popp_300">KoBPRA WEBZINE WRITE.S vol.78&nbsp;</span></p> <br> -->
-    <div class="FF_Nsans_400 writerinfo">
-    <span class="FF_Nsans_500 writerinfo2">&nbsp;INTERVIEWER</span> 박여진 &nbsp;
-    <span class="FF_Nsans_500 writerinfo2">PHOTO</span> 백홍기 
-    </div>
-    <div class="line-v2"></div>
-    </div> 
-    </div>
-    <div class="peoplein_content">
- <!-- 1 -->
-    <div class="peoplein_que FF_Nsans_600 LS_5">
-      한국방송연기자노동조합의 새 위원장이 되신 걸 축하합니다. 위원장님 소개 부탁드립니다. 
-    </div>
-    <div class="peoplein_ans FF_Nseri_200 LS_5">
-      <p class="peoplein_ans_mt">저는 1991년부터 93년까지 서울 시립가무단에서 뮤지컬 배우로 활동하다가 94년에 KBS 공채에 합격해 지금까지 성우로 활동하고 있는 성우 김영진입니다. 그전에는 성우협회에서 총무이사직을 맡아 활동했고 지금 이 단체(한연노)에서도 8년 동안 사무총장으로 일했습니다.</p>
-    </div><br>
-
-<!-- 2 -->
-    <br><div class="peoplein_que FF_Nsans_600 LS_5">
-      말씀하신 대로 KBS 24기 공채 성우로 활동을 시작하셔서 성우로서 경력을 탄탄히 쌓은 것으로 알고 있습니다. 안정적인 입지도 확보하셨고요. 그런데 한연노 활동에 관심을 두게 된 계기는 무엇인가요?
+            <!--collapse menu-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav m-auto">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false">
+                    피플
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/83/peoplein83.html">피플 인_ 김영진 회원</a>
+                    <a class="dropdown-item" href="/83/peoplein83-1.html">
+                      드라마 데뷔기_ 배유람 회원
+                    </a>
+                    <a class="dropdown-item" href="/83/peoplewith83.html">
+                      피플 위드_ 장원진 메이킹 필름 제작자
+                    </a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false">
+                    이슈
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/83/issue83.html">
+                      OTT 오리지널의 의미와 중요성
+                    </a>
+                    <a class="dropdown-item" href="/83/issue83-1.html">
+                      지구 반대편의 투쟁, OTT 시대 변화의 흐름
+                    </a>
+                    <a class="dropdown-item" href="/83/issue83-2.html">
+                      유사 누누티비의 등장과 저작권 보호
+                    </a>
+                  </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="/83/column83.html">칼럼</a></li>
+                <li class="nav-item"><a class="nav-link" href="/83/essay83.html">에세이</a></li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false">
+                    저작권
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/83/rights_webtoon.html">저작권 웹툰</a>
+                    <a class="dropdown-item" href="/83/rights.html">저작권 용어</a>
+                    <a class="dropdown-item" href="/83/rights_news.html">저작권 소식</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false">
+                    백스테이지
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/83/photoscript83.html">사진 스크립트</a>
+                    <a class="dropdown-item" href="/83/book83.html">방송인의 서재</a>
+                  </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="/83/news83.html">협회소식</a></li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false">
+                    다른호 보기
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/">WRITE.S Vol.89</a>
+                    <a class="dropdown-item" href="/88/index.html">WRITE.S Vol.88</a>
+                    <a class="dropdown-item" href="/87/index.html">WRITE.S Vol.87</a>
+                    <a class="dropdown-item" href="/86/index.html">WRITE.S Vol.86</a>
+                    <a class="dropdown-item" href="/85/index.html">WRITE.S Vol.85</a>
+                    <a class="dropdown-item" href="/84/index.html">WRITE.S Vol.84</a>
+                    <a class="dropdown-item" href="/83/index.html">WRITE.S Vol.83</a>
+                    <a class="dropdown-item" href="/82/index.html">WRITE.S Vol.82</a>
+                    <a class="dropdown-item" href="/81/index.html">WRITE.S Vol.81</a>
+                    <a class="dropdown-item" href="/80/index.html">WRITE.S Vol.80</a>
+                    <a class="dropdown-item" href="/79/index.html">WRITE.S Vol.79</a>
+                    <a class="dropdown-item" href="/78/index.html">WRITE.S Vol.78</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="http://www.kobpra.or.kr">협회홈페이지</a>
+                </li>
+              </ul>
+            </div>
+            <!--collapse menu end-->
+          </nav>
+        </div>
       </div>
-      <div class="peoplein_ans FF_Nseri_200 LS_5">
-        <p class="peoplein_ans_mt">연기자들의 삶의 질 때문입니다. 제가 성우 공채시험을 볼 때만 해도 약 3천 명 정도가 지원했습니다. 그중 공채시험에 합격해 활동하는 성우는 십여 명 남짓이고요. 배우 지망생들은 훨씬 더 많았죠. 지금도 상황은 별반 다르지 않습니다. 그런데 이렇게 힘들게 연기자의 길로 들어와서 보니 직업으로서 연기자가 받는 대우나 기본적인 처우가 터무니없이 부족하더군요. 감정적 모멸감은 차치하고라도 당장 생계를 유지하기 어려울 정도의 보수나 처우, 심지어 출연료를 받지 못하는 상황도 비일비재했습니다. 좋은 직업인데 늘 불합리한 관계에서 부당한 위치에 서야 하는 연기자들의 상황을 바꿔보고 싶었습니다. 자연스럽게 연기 노동자의 권리에 관심을 두게 되었고, 그래서 연기자노동조합에 들어오게 되었습니다. </p>
-      </div><br><br>
-      
-      <div class="bodyphoto2">
-        <img src="/83/img/peoplein_kyj1.jpg" alt="peoplein_kyj1">
-      </div> <br><br>
-  <!-- 3 -->
-      <br><div class="peoplein_que FF_Nsans_600 LS_5">
-      지금까지 한연노의 위원장은 탤런트 지부에서 나온 것으로 알고 있습니다. 성우지부에서는 처음 위원장이 나왔는데 특별한 의미가 있을까요?
+    </header>
+
+    <!--peoplein content-->
+    <section class="peoplein">
+      <div class="whitebox80">
+        &nbsp;
+        <br />
+        &nbsp;
+        <br />
       </div>
-      <div class="peoplein_ans FF_Nseri_200 LS_5">
-        <p class="peoplein_ans_mt">성우로서 제 직업에 자긍심을 갖고 있고 같은 성우 동료들에게도 깊은 동료애를 느끼지만, 성우 출신의 위원장이 나왔다고 해서 성우지부의 위상이나 내용이 달라지는 건 없습니다. 저 역시 포괄적인 연기자 중 한 사람이고 한연노 조합원 중 한 명이니까요. 우리 조합이 지금까지 올 수 있었던 것은 탤런트냐 성우냐 코미디언이냐를 떠나 조합을 위해 길을 닦고 만들어 주신 많은 선배님들의 노력 덕분이지요. 그분들이 앉았던 협상 테이블과 그분들이 일궈낸 수많은 성과 덕분에 오늘의 조합이 존재한다고 생각합니다. 따라서 지부에 대한 의미는 크지 않다고 생각합니다. </p> 
-      </div>
-      <br>
-      <!-- <div class="bodyphoto4">
+      <div class="bodyphoto1"></div>
+
+      <div class="container">
+        <div class="peoplein_top">
+          <h3 class="FF_Nsans_500">피플 인 코브프라</h3>
+          <h2 class="FF_Nseri_100">
+            16대 노조위원장
+            <br />
+            김영진
+          </h2>
+          <div class="peoplein_linever"></div>
+          <p class="writerwording1 FF_Nseri_500">
+            <br />
+            사람이 발을 딛는 곳에는 길이 있다.
+            <br />
+            누군가 시간과 비용을 들여 반듯하게 잘 닦아놓은 길도 있고
+            <br />
+            많은 이들의 발자취를 따라 자연스레 생긴 길도 있다.
+            <br />
+            한국방송연기자노동조합(이하 한연노)은 길을 만드는 단체다.
+            <br />
+            탤런트, 성우, 코미디언, 연극인, 무술연기자 등 대한민국에서 연기자로 살아가는
+            <br />
+            노동자들을 위해 길을 만드는 단체다.
+            <br />
+            반듯하고 넓은 도로에서 막힘없이 질주하는 이도 있고
+            <br />
+            사람이 적은 오솔길에서 고적하게 걷는 이도 있으며
+            <br />
+            가파른 비탈에서 숨 가쁘게 생존을 위해 악전고투하는 이도 있다.
+            <br />
+            더러는 길이 아닌 곳에서 웅크린 이도 있다.
+            <br />
+            한연노는
+            <br />
+            누구도 길이 아닌 곳에서 소외받지 않도록,
+            <br />
+            누구도 비탈에서 추락하지 않도록
+            <br />
+            뚜벅뚜벅 길을 만들고 이정표를 세운다.
+            <br />
+            그 길을 만드는 16대 위원장, 김영진 성우를 만났다.
+            <br />
+          </p>
+          <div class="intro">
+            <div class="line-v"></div>
+            <!-- <p><span class="by FF_Popp_300">KoBPRA WEBZINE WRITE.S vol.78&nbsp;</span></p> <br> -->
+            <div class="FF_Nsans_400 writerinfo">
+              <span class="FF_Nsans_500 writerinfo2">&nbsp;INTERVIEWER</span>
+              박여진 &nbsp;
+              <span class="FF_Nsans_500 writerinfo2">PHOTO</span>
+              백홍기
+            </div>
+            <div class="line-v2"></div>
+          </div>
+        </div>
+        <div class="peoplein_content">
+          <!-- 1 -->
+          <div class="peoplein_que FF_Nsans_600 LS_5">
+            한국방송연기자노동조합의 새 위원장이 되신 걸 축하합니다. 위원장님 소개 부탁드립니다.
+          </div>
+          <div class="peoplein_ans FF_Nseri_200 LS_5">
+            <p class="peoplein_ans_mt">
+              저는 1991년부터 93년까지 서울 시립가무단에서 뮤지컬 배우로 활동하다가 94년에 KBS
+              공채에 합격해 지금까지 성우로 활동하고 있는 성우 김영진입니다. 그전에는 성우협회에서
+              총무이사직을 맡아 활동했고 지금 이 단체(한연노)에서도 8년 동안 사무총장으로
+              일했습니다.
+            </p>
+          </div>
+          <br />
+
+          <!-- 2 -->
+          <br />
+          <div class="peoplein_que FF_Nsans_600 LS_5">
+            말씀하신 대로 KBS 24기 공채 성우로 활동을 시작하셔서 성우로서 경력을 탄탄히 쌓은 것으로
+            알고 있습니다. 안정적인 입지도 확보하셨고요. 그런데 한연노 활동에 관심을 두게 된 계기는
+            무엇인가요?
+          </div>
+          <div class="peoplein_ans FF_Nseri_200 LS_5">
+            <p class="peoplein_ans_mt">
+              연기자들의 삶의 질 때문입니다. 제가 성우 공채시험을 볼 때만 해도 약 3천 명 정도가
+              지원했습니다. 그중 공채시험에 합격해 활동하는 성우는 십여 명 남짓이고요. 배우
+              지망생들은 훨씬 더 많았죠. 지금도 상황은 별반 다르지 않습니다. 그런데 이렇게 힘들게
+              연기자의 길로 들어와서 보니 직업으로서 연기자가 받는 대우나 기본적인 처우가 터무니없이
+              부족하더군요. 감정적 모멸감은 차치하고라도 당장 생계를 유지하기 어려울 정도의 보수나
+              처우, 심지어 출연료를 받지 못하는 상황도 비일비재했습니다. 좋은 직업인데 늘 불합리한
+              관계에서 부당한 위치에 서야 하는 연기자들의 상황을 바꿔보고 싶었습니다. 자연스럽게
+              연기 노동자의 권리에 관심을 두게 되었고, 그래서 연기자노동조합에 들어오게 되었습니다.
+            </p>
+          </div>
+          <br />
+          <br />
+
+          <div class="bodyphoto2">
+            <img src="/83/img/peoplein_kyj1.jpg" alt="peoplein_kyj1" />
+          </div>
+          <br />
+          <br />
+          <!-- 3 -->
+          <br />
+          <div class="peoplein_que FF_Nsans_600 LS_5">
+            지금까지 한연노의 위원장은 탤런트 지부에서 나온 것으로 알고 있습니다. 성우지부에서는
+            처음 위원장이 나왔는데 특별한 의미가 있을까요?
+          </div>
+          <div class="peoplein_ans FF_Nseri_200 LS_5">
+            <p class="peoplein_ans_mt">
+              성우로서 제 직업에 자긍심을 갖고 있고 같은 성우 동료들에게도 깊은 동료애를 느끼지만,
+              성우 출신의 위원장이 나왔다고 해서 성우지부의 위상이나 내용이 달라지는 건 없습니다. 저
+              역시 포괄적인 연기자 중 한 사람이고 한연노 조합원 중 한 명이니까요. 우리 조합이
+              지금까지 올 수 있었던 것은 탤런트냐 성우냐 코미디언이냐를 떠나 조합을 위해 길을 닦고
+              만들어 주신 많은 선배님들의 노력 덕분이지요. 그분들이 앉았던 협상 테이블과 그분들이
+              일궈낸 수많은 성과 덕분에 오늘의 조합이 존재한다고 생각합니다. 따라서 지부에 대한
+              의미는 크지 않다고 생각합니다.
+            </p>
+          </div>
+          <br />
+          <!-- <div class="bodyphoto4">
         <img src="/img/peoplein_photoG2.jpg" alt="peoplein_photo3">
         </div>   <br> -->
-      <!-- 4 -->
-    <br><div class="peoplein_que FF_Nsans_600 LS_5">
-      몇 달 전 김준모 전 위원장님과도 인터뷰했습니다. 인터뷰를 통해 이 단체가 걸어왔던 길도 엿볼 수 있었고요. 한연노는 연기자의 권리를 위해 많은 활동을 해왔고 앞으로도 계속할 단체이지요. 새로 위원장이 되시면서 지난 한연노 활동에서 부족했다고 느끼는 부분이나 앞으로 좀 더 개선하고 싶은 부분이 있으신가요?
+          <!-- 4 -->
+          <br />
+          <div class="peoplein_que FF_Nsans_600 LS_5">
+            몇 달 전 김준모 전 위원장님과도 인터뷰했습니다. 인터뷰를 통해 이 단체가 걸어왔던 길도
+            엿볼 수 있었고요. 한연노는 연기자의 권리를 위해 많은 활동을 해왔고 앞으로도 계속할
+            단체이지요. 새로 위원장이 되시면서 지난 한연노 활동에서 부족했다고 느끼는 부분이나
+            앞으로 좀 더 개선하고 싶은 부분이 있으신가요?
+          </div>
+          <div class="peoplein_ans FF_Nseri_200 LS_5">
+            <p class="peoplein_ans_mt">
+              이 시대는 방송사든, 제작사든, OTT든 서로 상생해야만 하는 시대입니다. 상생하려면 수많은
+              협상과 논의가 필요하고요. 연기자를 단순히 소모품으로 보는 인식에서 벗어나 함께 하는
+              동반자로 보는 인식의 개선도 필요합니다. 물론 지금은 많이 좋아졌지만, 아직도
+              노동자로서의 연기자 권리에는 인식이 많이 부족합니다. 2018년, 대법원판결을 통해
+              연기자가 노동자로 정식으로 인정받았지만, 방송사와 외주제작자, OTT 등에서 노동자의
+              처우나 권리에 대한 올바른 인식을 뿌리내리려면 아직 우리 노조가 할 일이 많다고
+              생각합니다. 그러려면 소통이 중요하지요. 앞으로 저는 적극적이고 공정한 소통을 위해 더욱
+              노력할 생각입니다.
+              <br />
+              또한, 연기자를 가장 괴롭히는 문제 중 하나인 임금체불 문제에도 더욱 힘을 쏟을
+              생각입니다. 지금껏 많이 개선해 왔지만 앞으로 개선할 부분도 많습니다. 임기 내에
+              출연료를 지급받지 못해 생계의 벼랑에 몰리는 연기자가 없도록 더욱 많은 노력을 할
+              예정입니다.
+            </p>
+            <br />
+          </div>
+          <br />
+          <div class="bodyphoto4">
+            <img src="/83/img/peoplein_kyj2.jpg" alt="peoplein_photo3" />
+          </div>
+          <br />
+          <!-- 5 -->
+          <br />
+          <div class="peoplein_que FF_Nsans_600 LS_5">
+            노동자로서의 연기자 권리에 대해 더 묻고 싶습니다. 구체적으로 어떤 권리를 보장받아야
+            할까요?
+          </div>
+          <div class="peoplein_ans FF_Nseri_200 LS_5">
+            <p class="peoplein_ans_mt">
+              가장 중요한 건 노동의 대가죠. 열심히 일하고 그에 따른 적절한 보상을 받아야 나의 행복,
+              가족의 행복을 지킬 수 있죠. 너무 당연한 논리인데 이 시장에서는 그 당연한 논리가 통하지
+              않는 경우가 많습니다. 파이는 정해져 있는데 이렇게 저렇게 나누는 과정에서 연기자에 대한
+              배려가 아쉬울 때가 많습니다. 예전에는 캐스팅디렉터 비용도 배우가 부담해야 했어요.
+              아무리 밤을 새워 열심히 일해도 제대로 된 보상을 손에 쥘 수 없어 고통받는 연기자들이
+              많습니다. 다행히 김준모 전 위원장님이 임기 중에 캐스팅디렉터 비용을 원청자가 부담하게
+              만들도록 했습니다. 정말 큰 의미가 있는 일이었습니다.
+              <br />
+              <br />
+
+              이 외에도 많은 권리가 누락되고 있습니다. 아주 사소한 예로 촬영장 야외 화장실이나
+              휴게실조차 마련되지 않는 경우도 많습니다. 정말 인간으로서 누려야 할 가장 기본적인 것도
+              보장되지 않는 열악한 상황이 많아요. 위험에 노출되는 상황이 많은 무술 연기자의 산재
+              문제도 조합에서 더욱 신경 써야 하는 부분이고요.
+              <br />
+              스타 의존도가 큰 방송 현실도 문제이지요. 물론 훌륭한 스타가 큰 성공을 하는 데는 아무
+              이견이 없습니다. 하지만 스타가 아닌 연기자와 스타의 출연료 차이가 천 배 가까이 되는
+              현실은 문제라고 봅니다. 회당 20만 원 남짓 받고 출연하는 연기자가 생계를 유지할 수
+              있을까요? 더 나은 임금체계를 구축할 수 있도록 노력하는 것 역시 조합의 일이라고
+              생각합니다.
+              <br />
+              <br />
+              OTT 시장이 커지고 K-콘텐츠가 세계적으로 큰 인기를 누리고 있지만, 그로 인한 수익이
+              지나치게 한쪽으로 편중되다 보니 아직도 생존권 바닥에서 고통받는 연기자가 많습니다.
+              물가상승률대로 만이라도 연기자에 대한 처우 개선이 이루어진다면 좋겠다고 생각할
+              정도니까요.
+            </p>
+            <br />
+          </div>
+
+          <div class="bodyphoto4">
+            <img src="/83/img/peoplein_kyj4.jpg" alt="peoplein_photo3" />
+          </div>
+          <br />
+          <br />
+
+          <!-- 6 -->
+          <br />
+          <div class="peoplein_que FF_Nsans_600 LS_5">
+            한연노 내부적인 소통도 상당히 중요할 것 같습니다. 내부적으로 문제를 의식하고, 이를
+            공론화하고, 협상 테이블로 가져가 권리를 찾아오는 과정에는 협회원들의 자발적이고 적극적인
+            도움도 크게 작용하겠죠?
+          </div>
+          <div class="peoplein_ans FF_Nseri_200 LS_5">
+            <p class="peoplein_ans_mt">
+              물론입니다. 현재 한연노 조합원은 약 5천900명입니다. 한국방송실연자권리협회는 1만 4천
+              명이고요. 실연자권리협회 역시 배우들의 권리를 위해 힘쓰는 단체고 실질적으로 재방료를
+              회원들에게 받을 수 있도록 해주다 보니 가입률이 무척 높습니다.
+              <br />
+              그런데 한연노는 가시적인 권리뿐 아니라 비가시적인 권리를 위해서도 노력하는 단체입니다.
+              그러다 보니 실질적으로 조합의 존재 이유를 아직도 모르는 분들이 많아요. 제작환경 개선,
+              출연료 개선, 연기자의 권리 보호 등을 위해 일해도 당장 피부로 와닿는 것이 없다고
+              생각하는 분들도 많고요. 그래서 본의 아니게 무임승차 하는 분들도 많습니다. 저는
+              무임승차는 부당하다고 생각합니다. 무임승차는 함께 고민하고 함께 땀 흘린 다른
+              조합원들에게 박탈감을 주는 일입니다. 많은 연기자가 한연노의 존재 이유에 공감하고 힘을
+              실어주면 궁극적으로 연기자를 보호할 수 있는 우산의 크기가 더 커지지 않겠습니까?
+            </p>
+          </div>
+          <br />
+          <br />
+
+          <div class="bodyphoto4">
+            <img src="/83/img/peoplein_kyj3.jpg" alt="peoplein_photo3" />
+          </div>
+          <br />
+
+          <div class="peoplein_ans FF_Nseri_200 LS_5">
+            <p class="peoplein_ans_mt">
+              우리는 작은 부분부터 큰 부분까지 연기자의 삶의 질 향상을 위해 많은 노력을 하고
+              있습니다. 이번에는 조합원이 대학이나 대학원에 진학하셨을 경우 입학 지원금을 지급하는
+              제도도 마련했고요. 연기자가 참여한 작품이 방송 후 익월 말에 출연료를 지급하게 되어
+              있는 현 제도도 개선하려고 노력 중입니다. 예를 들어 사전 제작 이후 방송이 바로 되면
+              문제없지만, 1년 뒤, 2년 뒤에 방송된다면 그동안 출연료를 받지 못하는 연기자는 생계를
+              유지하기 어렵죠. 그래서 제작이 끝남과 동시에 3개월 이내에 출연료를 받을 수 있도록 하는
+              방안도 추진 중입니다. 연기자의 권리를 보호할 수 있다면 방송사든 제작사든, 최선을 다해
+              협상하고 얻어 낼 겁니다. 모쪼록 많은 분이 조합에 힘을 실어주셨으면 합니다.
+            </p>
+          </div>
+
+          <!-- 7 -->
+          <br />
+          <div class="peoplein_que FF_Nsans_600 LS_5">
+            여러 다른 단체와의 관계도 상당히 중요할 것 같습니다. 함께 했을 때 시너지를 낼 수 있는
+            단체도 있을 거고요. 어떤 단체와 어떤 협업을 하면 좋을까요?
+          </div>
+          <div class="peoplein_ans FF_Nseri_200 LS_5">
+            <p class="peoplein_ans_mt">
+              방송실연자권리협회와의 관계가 무엇보다 중요합니다. 가장 실질적인 부분에서 공통분모를
+              가지고 있는 단체이니까요. 일단은 연기자의 최저임금에 대한 합의가 이루어져야 하고
+              최저임금 아래로 일하는 연기자가 없도록 제도를 개선해야 합니다. 그런 임금체계를
+              만들려면 실연자권리협회와의 공동 노력이 필요합니다. 올가을이나 내년 초에
+              실연자권리협회와 함께 미국배우조합(SAG-AFTRA)을 방문할 예정입니다. 배우들의 제작환경
+              개선 및 최저 출연료, 출연 등급, 저작인접권에 관한 부분을 고민하고 우리 상황에 적용할
+              수 있는 방법을 찾도록 하겠습니다.
+            </p>
+          </div>
+
+          <!-- Q -->
+          <br />
+          <div class="peoplein_que FF_Nsans_600 LS_5">
+            마지막으로 한연노가 걸어가야 할 길을 말씀해 주세요.
+          </div>
+          <div class="peoplein_ans FF_Nseri_200 LS_5">
+            <p class="peoplein_ans_mt">
+              늘 그래왔듯 앞으로도 배우의 권익 보호를 위한 길을 걸을 겁니다. 지금까지 우리 방송
+              대중문화의 역사를 만들어 오신 선배님들과 동료 여러분들 그리고 그 길을 걸어올 후배들을
+              위해 최선의 노력을 다할 겁니다. 연기자가 행복을 추구할 권리, 노동에 대한 권리를
+              존중받으며 자긍심을 가지고 연기 활동을 할 수 있도록 계속 나아가겠습니다.
+            </p>
+            <br />
+          </div>
+          <br />
+
+          <div class="bodyphoto4">
+            <img src="/83/img/peoplein_kyj6.jpg" alt="peoplein_photo3" />
+          </div>
+          <br />
+
+          <!--Q&A end-->
+          <div class="peoplein_linever"></div>
+          <br />
+
+          <p class="writerwording1 FF_Nseri_500">
+            성우로서 개인적인 입지를 충분히 다져온 김영진 위원장은
+            <br />
+            홀로 편안히 걸을 수 있는 길 대신 여럿이 상생할 수 있는 길로 들어서서
+            <br />
+            이정표를 만들고 길을 다지고 있다.
+            <br />
+            <br />
+            홀로 걸으면 제대로 다져지지 않는 길,
+            <br />
+            여럿이 함께 걸을 때 탄탄하게 만들어질 그 길에
+            <br />
+            많은 연기자가 함께 하기를,
+            <br />
+            함께 걸어 넓고 단단한 길을 만들기를,
+            <br />
+            같이 고민하며 이정표를 만들고
+            <br />
+            같이 기뻐하며 목적지에 도착하기를,
+            <br />
+            그리하여 연기하는 노동자들의 삶이
+            <br />
+            더욱 든든하게 가꿔지기를 바란다.
+            <span class="wzmark"><i class="fas fa-edit"></i></span>
+          </p>
+        </div>
+        <br />
+        <br />
+
+        <div class="content_bottom">
+          <br />
+        </div>
       </div>
-      <div class="peoplein_ans FF_Nseri_200 LS_5">
-        <p class="peoplein_ans_mt">이 시대는 방송사든, 제작사든, OTT든 서로 상생해야만 하는 시대입니다. 상생하려면 수많은 협상과 논의가 필요하고요. 연기자를 단순히 소모품으로 보는 인식에서 벗어나 함께 하는 동반자로 보는 인식의 개선도 필요합니다. 물론 지금은 많이 좋아졌지만, 아직도 노동자로서의 연기자 권리에는 인식이 많이 부족합니다. 2018년, 대법원판결을 통해 연기자가 노동자로 정식으로 인정받았지만, 방송사와 외주제작자, OTT 등에서 노동자의 처우나 권리에 대한 올바른 인식을 뿌리내리려면 아직 우리 노조가 할 일이 많다고 생각합니다. 그러려면 소통이 중요하지요. 앞으로 저는 적극적이고 공정한 소통을 위해 더욱 노력할 생각입니다.<br>
-        또한, 연기자를 가장 괴롭히는 문제 중 하나인 임금체불 문제에도 더욱 힘을 쏟을 생각입니다. 지금껏 많이 개선해 왔지만 앞으로 개선할 부분도 많습니다. 임기 내에 출연료를 지급받지 못해 생계의 벼랑에 몰리는 연기자가 없도록 더욱 많은 노력을 할 예정입니다.</p> <br>
-      </div><br>
-      <div class="bodyphoto4">
-      <img src="/83/img/peoplein_kyj2.jpg" alt="peoplein_photo3">
-      </div><br>
-<!-- 5 -->
-<br><div class="peoplein_que FF_Nsans_600 LS_5">
-  노동자로서의 연기자 권리에 대해 더 묻고 싶습니다. 구체적으로 어떤 권리를 보장받아야 할까요? 
-  </div>
-  <div class="peoplein_ans FF_Nseri_200 LS_5">
-    <p class="peoplein_ans_mt">가장 중요한 건 노동의 대가죠. 열심히 일하고 그에 따른 적절한 보상을 받아야 나의 행복, 가족의 행복을 지킬 수 있죠. 너무 당연한 논리인데 이 시장에서는 그 당연한 논리가 통하지 않는 경우가 많습니다. 파이는 정해져 있는데 이렇게 저렇게 나누는 과정에서 연기자에 대한 배려가 아쉬울 때가 많습니다. 예전에는 캐스팅디렉터 비용도 배우가 부담해야 했어요. 아무리 밤을 새워 열심히 일해도 제대로 된 보상을 손에 쥘 수 없어 고통받는 연기자들이 많습니다. 다행히 김준모 전 위원장님이 임기 중에 캐스팅디렉터 비용을 원청자가 부담하게 만들도록 했습니다. 정말 큰 의미가 있는 일이었습니다.<br><br>
-    
-    이 외에도 많은 권리가 누락되고 있습니다. 아주 사소한 예로 촬영장 야외 화장실이나 휴게실조차 마련되지 않는 경우도 많습니다. 정말 인간으로서 누려야 할 가장 기본적인 것도 보장되지 않는 열악한 상황이 많아요. 
-    위험에 노출되는 상황이 많은 무술 연기자의 산재 문제도 조합에서 더욱 신경 써야 하는 부분이고요.<br>
-    스타 의존도가 큰 방송 현실도 문제이지요. 물론 훌륭한 스타가 큰 성공을 하는 데는 아무 이견이 없습니다. 하지만 스타가 아닌 연기자와 스타의 출연료 차이가 천 배 가까이 되는 현실은 문제라고 봅니다. 회당 20만 원 남짓 받고 출연하는 연기자가 생계를 유지할 수 있을까요? 더 나은 임금체계를 구축할 수 있도록 노력하는 것 역시 조합의 일이라고 생각합니다.<br><br> 
-    OTT 시장이 커지고 K-콘텐츠가 세계적으로 큰 인기를 누리고 있지만, 그로 인한 수익이 지나치게 한쪽으로 편중되다 보니 아직도 생존권 바닥에서 고통받는 연기자가 많습니다. 물가상승률대로 만이라도 연기자에 대한 처우 개선이 이루어진다면 좋겠다고 생각할 정도니까요.  </p> <br>
-  </div>
+    </section>
 
-  
-  <div class="bodyphoto4">
-    <img src="/83/img/peoplein_kyj4.jpg" alt="peoplein_photo3">
-    </div><br><br>
-
-  <!-- 6 -->
-  <br><div class="peoplein_que FF_Nsans_600 LS_5">
-  한연노 내부적인 소통도 상당히 중요할 것 같습니다. 내부적으로 문제를 의식하고, 이를 공론화하고, 협상 테이블로 가져가 권리를 찾아오는 과정에는 협회원들의 자발적이고 적극적인 도움도 크게 작용하겠죠?
-  </div>
-  <div class="peoplein_ans FF_Nseri_200 LS_5">
-  <p class="peoplein_ans_mt">물론입니다. 현재 한연노 조합원은 약 5천900명입니다. 한국방송실연자권리협회는 1만 4천 명이고요. 실연자권리협회 역시 배우들의 권리를 위해 힘쓰는 단체고 실질적으로 재방료를 회원들에게 받을 수 있도록 해주다 보니 가입률이 무척 높습니다.<br>
-  그런데 한연노는 가시적인 권리뿐 아니라 비가시적인 권리를 위해서도 노력하는 단체입니다. 그러다 보니 실질적으로 조합의 존재 이유를 아직도 모르는 분들이 많아요. 제작환경 개선, 출연료 개선, 연기자의 권리 보호 등을 위해 일해도 당장 피부로 와닿는 것이 없다고 생각하는 분들도 많고요. 그래서 본의 아니게 무임승차 하는 분들도 많습니다. 저는 무임승차는 부당하다고 생각합니다. 무임승차는 함께 고민하고 함께 땀 흘린 다른 조합원들에게 박탈감을 주는 일입니다. 많은 연기자가 한연노의 존재 이유에 공감하고 힘을 실어주면 궁극적으로 연기자를 보호할 수 있는 우산의 크기가 더 커지지 않겠습니까?</p>
-  </div><br><br>
-
-  <div class="bodyphoto4">
-  <img src="/83/img/peoplein_kyj3.jpg" alt="peoplein_photo3">
-  </div><br>
-
-  <div class="peoplein_ans FF_Nseri_200 LS_5">
-  <p class="peoplein_ans_mt">우리는 작은 부분부터 큰 부분까지 연기자의 삶의 질 향상을 위해 많은 노력을 하고 있습니다. 이번에는 조합원이 대학이나 대학원에 진학하셨을 경우 입학 지원금을 지급하는 제도도 마련했고요. 연기자가 참여한 작품이 방송 후 익월 말에 출연료를 지급하게 되어 있는 현 제도도 개선하려고 노력 중입니다. 예를 들어 사전 제작 이후 방송이 바로 되면 문제없지만, 1년 뒤, 2년 뒤에 방송된다면 그동안 출연료를 받지 못하는 연기자는 생계를 유지하기 어렵죠. 그래서 제작이 끝남과 동시에 3개월 이내에 출연료를 받을 수 있도록 하는 방안도 추진 중입니다. 
-  연기자의 권리를 보호할 수 있다면 방송사든 제작사든, 최선을 다해 협상하고 얻어 낼 겁니다. 모쪼록 많은 분이 조합에 힘을 실어주셨으면 합니다. </p>
-  </div>
-
-
-<!-- 7 -->
-<br><div class="peoplein_que FF_Nsans_600 LS_5">
-  여러 다른 단체와의 관계도 상당히 중요할 것 같습니다. 함께 했을 때 시너지를 낼 수 있는 단체도 있을 거고요. 어떤 단체와 어떤 협업을 하면 좋을까요?
-  </div>
-  <div class="peoplein_ans FF_Nseri_200 LS_5">
-  <p class="peoplein_ans_mt">방송실연자권리협회와의 관계가 무엇보다 중요합니다. 가장 실질적인 부분에서 공통분모를 가지고 있는 단체이니까요. 
-  일단은 연기자의 최저임금에 대한 합의가 이루어져야 하고 최저임금 아래로 일하는 연기자가 없도록 제도를 개선해야 합니다. 그런 임금체계를 만들려면 실연자권리협회와의 공동 노력이 필요합니다. 올가을이나 내년 초에 실연자권리협회와 함께 미국배우조합(SAG-AFTRA)을 방문할 예정입니다. 배우들의 제작환경 개선 및 최저 출연료, 출연 등급, 저작인접권에 관한 부분을 고민하고 우리 상황에 적용할 수 있는 방법을 찾도록 하겠습니다.</p>
-  </div>
-
-  
-<!-- Q -->
-<br><div class="peoplein_que FF_Nsans_600 LS_5">
-  마지막으로 한연노가 걸어가야 할 길을 말씀해 주세요.</div>
-  <div class="peoplein_ans FF_Nseri_200 LS_5">
-  <p class="peoplein_ans_mt">늘 그래왔듯 앞으로도 배우의 권익 보호를 위한 길을 걸을 겁니다. 지금까지 우리 방송 대중문화의 역사를 만들어 오신 선배님들과 동료 여러분들 그리고 그 길을 걸어올 후배들을 위해 최선의 노력을 다할 겁니다. 연기자가 행복을 추구할 권리, 노동에 대한 권리를 존중받으며 자긍심을 가지고 연기 활동을 할 수 있도록 계속 나아가겠습니다. </p><br>
-  </div><br>
-  
-  <div class="bodyphoto4">
-  <img src="/83/img/peoplein_kyj6.jpg" alt="peoplein_photo3">
-  </div><br>
-
-  <!--Q&A end-->
-  <div class="peoplein_linever"></div>
-  <br>
-
-  <p class="writerwording1 FF_Nseri_500">
-  성우로서 개인적인 입지를 충분히 다져온 김영진 위원장은<br>
-  홀로 편안히 걸을 수 있는 길 대신 여럿이 상생할 수 있는 길로 들어서서<br> 
-  이정표를 만들고 길을 다지고 있다.<br> <br>
-  홀로 걸으면 제대로 다져지지 않는 길,<br>
-  여럿이 함께 걸을 때 탄탄하게 만들어질 그 길에<br>
-  많은 연기자가 함께 하기를,<br>
-  함께 걸어 넓고 단단한 길을 만들기를,<br>
-  같이 고민하며 이정표를 만들고<br>
-  같이 기뻐하며 목적지에 도착하기를,<br>
-  그리하여 연기하는 노동자들의 삶이<br> 
-  더욱 든든하게 가꿔지기를 바란다. 
-  <span class="wzmark"><i class="fas fa-edit"></i>
-  </span> </p>
-  </div><br><br>
-      
-      <div class="content_bottom">
-      <br>
+    <!--footer-->
+    <footer class="footer_box">
+      <div class="container">
+        <div class="footer_logo">WRITE.S</div>
+        <p class="footer_text">
+          한국방송실연자권리협회 웹진 KoBPRA Webzine
+          <br />
+          <b>발행처</b>
+          한국방송실연자권리협회
+          <br />
+          <b>발행인</b>
+          송영웅&nbsp;&nbsp;
+          <b>제작</b>
+          오로라 프로젝트 &nbsp;&nbsp;
+          <br />
+          <b>문의</b>
+          writes.kobpra@gmail.com
+          <br />
+          <b>저작권자</b>
+          © KoBPRA 무단전재 및 재배포 금지
+        </p>
       </div>
-      
-  </div>
-</div>
-</section>
+    </footer>
 
-<!--footer-->
-<footer class="footer_box">
-  <div class="container">
-    <div class="footer_logo">WRITE.S</div>
-    <p class="footer_text">
-    한국방송실연자권리협회 웹진 KoBPRA Webzine 
-    <br><b>발행처</b> 한국방송실연자권리협회
-    <br><b>발행인</b> 송영웅&nbsp;&nbsp;<b>제작</b> 오로라 프로젝트 &nbsp;&nbsp;<br><b>문의</b> writes.kobpra@gmail.com <br>
-    <b>저작권자</b> © KoBPRA 무단전재 및 재배포 금지
-    </p>
-  </div>
-</footer>
-
-<!-- Optional JavaScript -->
+    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    
-  <script src="https://code.jquery.com/jquery-3.5.1.js" ></script>
-  
-  
-  <script type="text/javascript">
-    $(function(){
-      var navbar = $('.header-inner');
-      $(window).scroll(function(){
-        if($(window).scrollTop() <=40){
-          navbar.removeClass('navbar-scroll');
-        }else{
-          navbar.addClass('navbar-scroll');
-        }
-      });
-    });
-  </script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"></script>
 
-</body>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+    <script type="text/javascript">
+      $(function () {
+        var navbar = $('.header-inner');
+        $(window).scroll(function () {
+          if ($(window).scrollTop() <= 40) {
+            navbar.removeClass('navbar-scroll');
+          } else {
+            navbar.addClass('navbar-scroll');
+          }
+        });
+      });
+    </script>
+  </body>
 </html>
